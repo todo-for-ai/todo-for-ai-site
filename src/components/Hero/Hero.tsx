@@ -11,6 +11,7 @@ import {
   SafetyOutlined
 } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
+import HeroDiagram from '../HeroDiagram/HeroDiagram';
 import './Hero.css';
 
 const { Title, Paragraph } = Typography;
@@ -98,43 +99,7 @@ const Hero: React.FC = () => {
         </div>
         
         <div className="hero-visual">
-          <div className="demo-card">
-            <div className="demo-header">
-              <div className="demo-dots">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <span className="demo-title">{t('hero.demo.title')}</span>
-            </div>
-            <div className="demo-content">
-              <div className="task-item completed">
-                <span className="task-icon">✓</span>
-                <span className="task-text">{t('hero.demo.tasks.analyzed')}</span>
-                <span className="task-time">2 min ago</span>
-              </div>
-              <div className="task-item active">
-                <span className="task-icon">🤖</span>
-                <span className="task-text">{t('hero.demo.tasks.creating')}</span>
-                <span className="task-progress">85%</span>
-              </div>
-              <div className="task-item pending">
-                <span className="task-icon">📋</span>
-                <span className="task-text">{t('hero.demo.tasks.review')}</span>
-                <span className="task-priority">High</span>
-              </div>
-              <div className="task-item">
-                <span className="task-icon">🎯</span>
-                <span className="task-text">{t('hero.demo.tasks.optimize')}</span>
-                <span className="task-ai">AI Suggested</span>
-              </div>
-              <div className="task-item">
-                <span className="task-icon">📊</span>
-                <span className="task-text">{t('hero.demo.tasks.analytics')}</span>
-                <span className="task-schedule">Tomorrow 9AM</span>
-              </div>
-            </div>
-          </div>
+          <HeroDiagram />
         </div>
       </div>
     </section>
