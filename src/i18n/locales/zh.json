@@ -17,7 +17,15 @@
     "features": {
       "smartTaskCreation": "智能任务创建",
       "aiDrivenAutomation": "AI驱动自动化",
-      "openSource": "开源项目"
+      "automatedWorkflows": "自动化工作流",
+      "intelligentScheduling": "智能调度",
+      "collaborativeAI": "协作AI",
+      "privacyFirst": "隐私优先设计"
+    },
+    "stats": {
+      "productivityBoost": "生产力提升",
+      "aiAssistance": "AI助手",
+      "privacyProtected": "隐私保护"
     },
     "buttons": {
       "getStartedFree": "免费开始",
@@ -29,7 +37,8 @@
         "analyzed": "AI已分析并优先排序15个任务",
         "creating": "正在创建自动化工作流...",
         "review": "审查季度目标",
-        "optimize": "优化团队生产力"
+        "optimize": "优化团队生产力",
+        "analytics": "生成生产力分析报告"
       }
     }
   },
@@ -60,6 +69,18 @@
       "privacyFirst": {
         "title": "隐私优先设计",
         "description": "通过本地处理和加密存储确保数据安全。在不损害隐私或数据所有权的情况下享受AI优势。"
+      },
+      "mcpIntegration": {
+        "title": "MCP工具集成",
+        "description": "无缝集成模型上下文协议(MCP)工具，增强AI功能。轻松连接外部服务和API。"
+      },
+      "cloudSync": {
+        "title": "云端同步",
+        "description": "通过安全的云存储在所有设备间保持任务同步。随时随地访问您的生产力数据。"
+      },
+      "analytics": {
+        "title": "高级分析",
+        "description": "通过全面的分析和报告深入了解您的生产力模式。跟踪进度并优化您的工作流程。"
       }
     },
     "cta": {
@@ -72,30 +93,30 @@
     "subtitle": "通过AI驱动的任务管理，四个简单步骤改变您的生产力",
     "steps": {
       "connect": {
-        "title": "连接与设置",
-        "description": "注册并连接您现有的工具和工作流",
-        "details": "与您喜爱的生产力工具、日历和项目管理平台无缝集成。我们的AI从您现有的数据中学习，从第一天就提供个性化建议。"
+        "title": "快速设置",
+        "description": "创建账户并配置您的偏好设置",
+        "details": "通过直观的设置流程，几分钟内即可开始使用。通过MCP集成连接现有工具，导入当前任务，并自定义AI设置以匹配您的工作流程偏好。"
       },
       "analysis": {
-        "title": "AI分析",
-        "description": "我们的AI分析您的模式和偏好",
-        "details": "先进的机器学习算法研究您的工作习惯、高效时段、任务完成模式和协作风格，创建个性化的生产力档案。"
+        "title": "AI学习",
+        "description": "AI分析您的工作模式和任务历史",
+        "details": "我们的先进AI引擎研究您的任务完成模式，识别生产力高峰，分析任务依赖关系，并学习您的偏好以创建个性化的生产力档案。"
       },
       "automation": {
         "title": "智能自动化",
-        "description": "自动化任务创建、优先级排序和调度",
-        "details": "体验智能任务分解、自动优先级分配、智能截止日期建议，以及适应您精力水平和可用性的优化调度。"
+        "description": "AI自动管理任务、优先级和调度",
+        "details": "体验智能任务分解、基于紧急性和重要性的自动优先级分配、智能截止日期建议，以及适应您精力水平和可用性的优化调度。"
       },
       "achieve": {
-        "title": "成就更多",
-        "description": "专注于重要事务，让AI处理复杂性",
-        "details": "通过AI驱动的洞察、自动化工作流和智能建议，将生产力提升高达40%，帮助您在更短时间内完成更多工作。"
+        "title": "提升生产力",
+        "description": "专注于高价值工作，让AI处理细节",
+        "details": "通过AI驱动的洞察、自动化日常任务、智能建议和工作流程的实时优化，实现高达40%的生产力提升。"
       }
     },
     "demo": {
       "title": "观看Todo4AI实际操作",
       "videoTitle": "观看演示视频",
-      "videoDescription": "了解Todo4AI如何将混乱的任务列表转变为有组织的AI驱动生产力系统"
+      "videoDescription": "探索Todo4AI如何通过实时自动化和智能洞察将混乱的任务列表转变为有组织的AI驱动生产力系统"
     }
   },
   "footer": {

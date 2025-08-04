@@ -17,7 +17,15 @@
     "features": {
       "smartTaskCreation": "Smart Task Creation",
       "aiDrivenAutomation": "AI-Driven Automation",
-      "openSource": "Open Source"
+      "automatedWorkflows": "Automated Workflows",
+      "intelligentScheduling": "Intelligent Scheduling",
+      "collaborativeAI": "Collaborative AI",
+      "privacyFirst": "Privacy-First Design"
+    },
+    "stats": {
+      "productivityBoost": "Productivity Boost",
+      "aiAssistance": "AI Assistance",
+      "privacyProtected": "Privacy Protected"
     },
     "buttons": {
       "getStartedFree": "Get Started Free",
@@ -29,7 +37,8 @@
         "analyzed": "AI analyzed and prioritized 15 tasks",
         "creating": "Creating automated workflow...",
         "review": "Review quarterly goals",
-        "optimize": "Optimize team productivity"
+        "optimize": "Optimize team productivity",
+        "analytics": "Generate productivity analytics"
       }
     }
   },
@@ -60,6 +69,18 @@
       "privacyFirst": {
         "title": "Privacy-First Design",
         "description": "Your data stays secure with local processing and encrypted storage. Enjoy AI benefits without compromising privacy or data ownership."
+      },
+      "mcpIntegration": {
+        "title": "MCP Tool Integration",
+        "description": "Seamlessly integrate with Model Context Protocol (MCP) tools for enhanced AI capabilities. Connect with external services and APIs effortlessly."
+      },
+      "cloudSync": {
+        "title": "Cloud Synchronization",
+        "description": "Keep your tasks synchronized across all devices with secure cloud storage. Access your productivity data anywhere, anytime."
+      },
+      "analytics": {
+        "title": "Advanced Analytics",
+        "description": "Gain deep insights into your productivity patterns with comprehensive analytics and reporting. Track progress and optimize your workflow."
       }
     },
     "cta": {
@@ -72,30 +93,30 @@
     "subtitle": "Transform your productivity in four simple steps with AI-powered task management",
     "steps": {
       "connect": {
-        "title": "Connect & Setup",
-        "description": "Sign up and connect your existing tools and workflows",
-        "details": "Seamlessly integrate with your favorite productivity tools, calendars, and project management platforms. Our AI learns from your existing data to provide personalized recommendations from day one."
+        "title": "Quick Setup",
+        "description": "Create your account and configure your preferences",
+        "details": "Get started in minutes with our intuitive setup process. Connect your existing tools via MCP integration, import your current tasks, and customize AI settings to match your workflow preferences."
       },
       "analysis": {
-        "title": "AI Analysis",
-        "description": "Our AI analyzes your patterns and preferences",
-        "details": "Advanced machine learning algorithms study your work habits, peak productivity hours, task completion patterns, and collaboration styles to create a personalized productivity profile."
+        "title": "AI Learning",
+        "description": "AI analyzes your work patterns and task history",
+        "details": "Our advanced AI engine studies your task completion patterns, identifies productivity peaks, analyzes task dependencies, and learns your preferences to create a personalized productivity profile."
       },
       "automation": {
-        "title": "Smart Automation",
-        "description": "Automated task creation, prioritization, and scheduling",
-        "details": "Experience intelligent task breakdown, automatic priority assignment, smart deadline suggestions, and optimized scheduling that adapts to your energy levels and availability."
+        "title": "Intelligent Automation",
+        "description": "AI automatically manages tasks, priorities, and schedules",
+        "details": "Experience smart task breakdown, automatic priority assignment based on urgency and importance, intelligent deadline suggestions, and optimized scheduling that adapts to your energy levels and availability."
       },
       "achieve": {
-        "title": "Achieve More",
-        "description": "Focus on what matters while AI handles the complexity",
-        "details": "Boost your productivity by up to 40% with AI-powered insights, automated workflows, and intelligent recommendations that help you accomplish more in less time."
+        "title": "Enhanced Productivity",
+        "description": "Focus on high-value work while AI handles the details",
+        "details": "Achieve up to 40% productivity improvement with AI-powered insights, automated routine tasks, intelligent recommendations, and real-time optimization of your workflow."
       }
     },
     "demo": {
       "title": "See Todo4AI in Action",
       "videoTitle": "Watch Demo Video",
-      "videoDescription": "See how Todo4AI transforms chaotic task lists into organized, AI-powered productivity systems"
+      "videoDescription": "Discover how Todo4AI transforms chaotic task lists into organized, AI-powered productivity systems with real-time automation and intelligent insights"
     }
   },
   "footer": {

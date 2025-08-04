@@ -6,7 +6,10 @@ import {
   BranchesOutlined,
   ClockCircleOutlined,
   TeamOutlined,
-  SafetyOutlined
+  SafetyOutlined,
+  ApiOutlined,
+  CloudOutlined,
+  BarChartOutlined
 } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import './Features.css';
@@ -46,6 +49,21 @@ const Features: React.FC = () => {
       icon: <SafetyOutlined />,
       title: t('features.items.privacyFirst.title'),
       description: t('features.items.privacyFirst.description')
+    },
+    {
+      icon: <ApiOutlined />,
+      title: t('features.items.mcpIntegration.title'),
+      description: t('features.items.mcpIntegration.description')
+    },
+    {
+      icon: <CloudOutlined />,
+      title: t('features.items.cloudSync.title'),
+      description: t('features.items.cloudSync.description')
+    },
+    {
+      icon: <BarChartOutlined />,
+      title: t('features.items.analytics.title'),
+      description: t('features.items.analytics.description')
     }
   ];
 
