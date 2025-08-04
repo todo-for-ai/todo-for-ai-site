@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Todo4AI Site
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Important Configuration Notes
+
+### Port Configuration
+This project is configured to run on **port 51701**. This port number is specifically set for Todo4AI and should **NOT** be modified.
+
+- **Configuration file**: `.env`
+- **Port number**: 51701
+- **⚠️ WARNING**: Do not change the port number as it may cause deployment and integration issues.
+
+If you need to use a different port for local development, create a `.env.local` file with your preferred port instead of modifying the main `.env` file.
 
 ## Available Scripts
 
@@ -9,7 +20,9 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:51701](http://localhost:51701) to view it in the browser.
+
+**Note**: The port 51701 is specifically configured for Todo4AI. Do not modify this port number as it may cause deployment and integration issues.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
