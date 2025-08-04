@@ -1,0 +1,146 @@
+{
+  "header": {
+    "logo": "Todo4AI",
+    "tagline": "AI Task Management",
+    "menu": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "documentation": "Documentation",
+      "github": "GitHub"
+    },
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "AI-Powered Task Management",
+    "titleHighlight": "Reimagined",
+    "description": "Todo4AI revolutionizes how you manage tasks with intelligent automation, smart prioritization, and seamless AI integration. Let artificial intelligence handle the complexity while you focus on what matters most.",
+    "features": {
+      "smartTaskCreation": "Smart Task Creation",
+      "aiDrivenAutomation": "AI-Driven Automation",
+      "openSource": "Open Source"
+    },
+    "buttons": {
+      "getStartedFree": "Get Started Free",
+      "viewOnGithub": "View on GitHub"
+    },
+    "demo": {
+      "title": "Todo4AI Dashboard",
+      "tasks": {
+        "analyzed": "AI analyzed and prioritized 15 tasks",
+        "creating": "Creating automated workflow...",
+        "review": "Review quarterly goals",
+        "optimize": "Optimize team productivity"
+      }
+    }
+  },
+  "features": {
+    "title": "Powerful Features for Modern Productivity",
+    "subtitle": "Discover how Todo4AI transforms task management with cutting-edge artificial intelligence",
+    "items": {
+      "aiTaskCreation": {
+        "title": "AI-Powered Task Creation",
+        "description": "Automatically generate and break down complex tasks using advanced AI algorithms. Let artificial intelligence understand your goals and create actionable task lists."
+      },
+      "smartPrioritization": {
+        "title": "Smart Prioritization",
+        "description": "Intelligent priority ranking based on deadlines, dependencies, and importance. Never miss critical tasks with AI-driven scheduling recommendations."
+      },
+      "automatedWorkflows": {
+        "title": "Automated Workflows",
+        "description": "Create sophisticated automation rules that adapt to your work patterns. Streamline repetitive processes with intelligent workflow automation."
+      },
+      "intelligentScheduling": {
+        "title": "Intelligent Scheduling",
+        "description": "AI analyzes your calendar, energy levels, and task complexity to suggest optimal scheduling. Maximize productivity with smart time management."
+      },
+      "collaborativeAI": {
+        "title": "Collaborative AI",
+        "description": "Share AI insights across teams and learn from collective productivity patterns. Enhance team coordination with intelligent collaboration features."
+      },
+      "privacyFirst": {
+        "title": "Privacy-First Design",
+        "description": "Your data stays secure with local processing and encrypted storage. Enjoy AI benefits without compromising privacy or data ownership."
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience AI-Powered Productivity?",
+      "description": "Join thousands of users who have revolutionized their task management with Todo4AI"
+    }
+  },
+  "howItWorks": {
+    "title": "How Todo4AI Works",
+    "subtitle": "Transform your productivity in four simple steps with AI-powered task management",
+    "steps": {
+      "connect": {
+        "title": "Connect & Setup",
+        "description": "Sign up and connect your existing tools and workflows",
+        "details": "Seamlessly integrate with your favorite productivity tools, calendars, and project management platforms. Our AI learns from your existing data to provide personalized recommendations from day one."
+      },
+      "analysis": {
+        "title": "AI Analysis",
+        "description": "Our AI analyzes your patterns and preferences",
+        "details": "Advanced machine learning algorithms study your work habits, peak productivity hours, task completion patterns, and collaboration styles to create a personalized productivity profile."
+      },
+      "automation": {
+        "title": "Smart Automation",
+        "description": "Automated task creation, prioritization, and scheduling",
+        "details": "Experience intelligent task breakdown, automatic priority assignment, smart deadline suggestions, and optimized scheduling that adapts to your energy levels and availability."
+      },
+      "achieve": {
+        "title": "Achieve More",
+        "description": "Focus on what matters while AI handles the complexity",
+        "details": "Boost your productivity by up to 40% with AI-powered insights, automated workflows, and intelligent recommendations that help you accomplish more in less time."
+      }
+    },
+    "demo": {
+      "title": "See Todo4AI in Action",
+      "videoTitle": "Watch Demo Video",
+      "videoDescription": "See how Todo4AI transforms chaotic task lists into organized, AI-powered productivity systems"
+    }
+  },
+  "footer": {
+    "brand": {
+      "title": "Todo4AI",
+      "description": "Revolutionizing task management with artificial intelligence. Boost your productivity and focus on what truly matters."
+    },
+    "sections": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "howItWorks": "How It Works",
+          "getStarted": "Get Started",
+          "pricing": "Pricing",
+          "api": "API"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": {
+          "documentation": "Documentation",
+          "tutorials": "Tutorials",
+          "blog": "Blog",
+          "community": "Community",
+          "support": "Support"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About Us",
+          "careers": "Careers",
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Service",
+          "contact": "Contact"
+        }
+      }
+    },
+    "copyright": "© {{year}} Todo4AI. All rights reserved.",
+    "madeWithLove": "Made with ❤️ for productivity enthusiasts"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "chinese": "简体中文"
+  }
+}

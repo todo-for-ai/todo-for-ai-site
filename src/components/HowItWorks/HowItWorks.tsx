@@ -1,40 +1,43 @@
 import React from 'react';
 import { Steps, Typography, Card, Row, Col } from 'antd';
-import { 
-  UserAddOutlined, 
-  RobotOutlined, 
-  ThunderboltOutlined, 
-  TrophyOutlined 
+import {
+  UserAddOutlined,
+  RobotOutlined,
+  ThunderboltOutlined,
+  TrophyOutlined
 } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
 import './HowItWorks.css';
 
 const { Title, Paragraph } = Typography;
 
 const HowItWorks: React.FC = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
-      title: 'Connect & Setup',
-      description: 'Sign up and connect your existing tools and workflows',
+      title: t('howItWorks.steps.connect.title'),
+      description: t('howItWorks.steps.connect.description'),
       icon: <UserAddOutlined />,
-      details: 'Seamlessly integrate with your favorite productivity tools, calendars, and project management platforms. Our AI learns from your existing data to provide personalized recommendations from day one.'
+      details: t('howItWorks.steps.connect.details')
     },
     {
-      title: 'AI Analysis',
-      description: 'Our AI analyzes your patterns and preferences',
+      title: t('howItWorks.steps.analysis.title'),
+      description: t('howItWorks.steps.analysis.description'),
       icon: <RobotOutlined />,
-      details: 'Advanced machine learning algorithms study your work habits, peak productivity hours, task completion patterns, and collaboration styles to create a personalized productivity profile.'
+      details: t('howItWorks.steps.analysis.details')
     },
     {
-      title: 'Smart Automation',
-      description: 'Automated task creation, prioritization, and scheduling',
+      title: t('howItWorks.steps.automation.title'),
+      description: t('howItWorks.steps.automation.description'),
       icon: <ThunderboltOutlined />,
-      details: 'Experience intelligent task breakdown, automatic priority assignment, smart deadline suggestions, and optimized scheduling that adapts to your energy levels and availability.'
+      details: t('howItWorks.steps.automation.details')
     },
     {
-      title: 'Achieve More',
-      description: 'Focus on what matters while AI handles the complexity',
+      title: t('howItWorks.steps.achieve.title'),
+      description: t('howItWorks.steps.achieve.description'),
       icon: <TrophyOutlined />,
-      details: 'Boost your productivity by up to 40% with AI-powered insights, automated workflows, and intelligent recommendations that help you accomplish more in less time.'
+      details: t('howItWorks.steps.achieve.details')
     }
   ];
 
@@ -43,10 +46,10 @@ const HowItWorks: React.FC = () => {
       <div className="how-it-works-container">
         <div className="section-header">
           <Title level={2} className="section-title">
-            How Todo4AI Works
+            {t('howItWorks.title')}
           </Title>
           <Paragraph className="section-subtitle">
-            Transform your productivity in four simple steps with AI-powered task management
+            {t('howItWorks.subtitle')}
           </Paragraph>
         </div>
 
@@ -90,7 +93,7 @@ const HowItWorks: React.FC = () => {
 
         <div className="demo-section">
           <Title level={3} className="demo-title">
-            See Todo4AI in Action
+            {t('howItWorks.demo.title')}
           </Title>
           <div className="demo-video-placeholder">
             <div className="play-button">
@@ -98,10 +101,10 @@ const HowItWorks: React.FC = () => {
             </div>
             <div className="demo-overlay">
               <Title level={4} className="overlay-title">
-                Watch Demo Video
+                {t('howItWorks.demo.videoTitle')}
               </Title>
               <Paragraph className="overlay-description">
-                See how Todo4AI transforms chaotic task lists into organized, AI-powered productivity systems
+                {t('howItWorks.demo.videoDescription')}
               </Paragraph>
             </div>
           </div>

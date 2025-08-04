@@ -1,48 +1,51 @@
 import React from 'react';
 import { Row, Col, Card, Typography } from 'antd';
-import { 
-  RobotOutlined, 
-  ThunderboltOutlined, 
+import {
+  RobotOutlined,
+  ThunderboltOutlined,
   BranchesOutlined,
   ClockCircleOutlined,
   TeamOutlined,
   SafetyOutlined
 } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
 import './Features.css';
 
 const { Title, Paragraph } = Typography;
 
 const Features: React.FC = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: <RobotOutlined />,
-      title: 'AI-Powered Task Creation',
-      description: 'Automatically generate and break down complex tasks using advanced AI algorithms. Let artificial intelligence understand your goals and create actionable task lists.'
+      title: t('features.items.aiTaskCreation.title'),
+      description: t('features.items.aiTaskCreation.description')
     },
     {
       icon: <ThunderboltOutlined />,
-      title: 'Smart Prioritization',
-      description: 'Intelligent priority ranking based on deadlines, dependencies, and importance. Never miss critical tasks with AI-driven scheduling recommendations.'
+      title: t('features.items.smartPrioritization.title'),
+      description: t('features.items.smartPrioritization.description')
     },
     {
       icon: <BranchesOutlined />,
-      title: 'Automated Workflows',
-      description: 'Create sophisticated automation rules that adapt to your work patterns. Streamline repetitive processes with intelligent workflow automation.'
+      title: t('features.items.automatedWorkflows.title'),
+      description: t('features.items.automatedWorkflows.description')
     },
     {
       icon: <ClockCircleOutlined />,
-      title: 'Intelligent Scheduling',
-      description: 'AI analyzes your calendar, energy levels, and task complexity to suggest optimal scheduling. Maximize productivity with smart time management.'
+      title: t('features.items.intelligentScheduling.title'),
+      description: t('features.items.intelligentScheduling.description')
     },
     {
       icon: <TeamOutlined />,
-      title: 'Collaborative AI',
-      description: 'Share AI insights across teams and learn from collective productivity patterns. Enhance team coordination with intelligent collaboration features.'
+      title: t('features.items.collaborativeAI.title'),
+      description: t('features.items.collaborativeAI.description')
     },
     {
       icon: <SafetyOutlined />,
-      title: 'Privacy-First Design',
-      description: 'Your data stays secure with local processing and encrypted storage. Enjoy AI benefits without compromising privacy or data ownership.'
+      title: t('features.items.privacyFirst.title'),
+      description: t('features.items.privacyFirst.description')
     }
   ];
 
@@ -51,10 +54,10 @@ const Features: React.FC = () => {
       <div className="features-container">
         <div className="features-header">
           <Title level={2} className="features-title">
-            Powerful Features for Modern Productivity
+            {t('features.title')}
           </Title>
           <Paragraph className="features-subtitle">
-            Discover how Todo4AI transforms task management with cutting-edge artificial intelligence
+            {t('features.subtitle')}
           </Paragraph>
         </div>
         
@@ -82,10 +85,10 @@ const Features: React.FC = () => {
         
         <div className="features-cta">
           <Title level={3} className="cta-title">
-            Ready to Experience AI-Powered Productivity?
+            {t('features.cta.title')}
           </Title>
           <Paragraph className="cta-description">
-            Join thousands of users who have revolutionized their task management with Todo4AI
+            {t('features.cta.description')}
           </Paragraph>
         </div>
       </div>

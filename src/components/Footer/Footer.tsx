@@ -1,18 +1,20 @@
 import React from 'react';
 import { Layout, Row, Col, Typography, Space, Divider } from 'antd';
-import { 
-  GithubOutlined, 
-  TwitterOutlined, 
+import {
+  GithubOutlined,
+  TwitterOutlined,
   LinkedinOutlined,
   MailOutlined,
   HeartFilled
 } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
 const { Footer: AntFooter } = Layout;
 const { Title, Paragraph, Link } = Typography;
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -22,11 +24,10 @@ const Footer: React.FC = () => {
           <Col xs={24} md={8}>
             <div className="footer-brand">
               <Title level={3} className="footer-logo">
-                Todo4AI
+                {t('footer.brand.title')}
               </Title>
               <Paragraph className="footer-description">
-                Revolutionizing task management with artificial intelligence. 
-                Boost your productivity and focus on what truly matters.
+                {t('footer.brand.description')}
               </Paragraph>
               <Space size="large" className="social-links">
                 <Link 
@@ -63,14 +64,14 @@ const Footer: React.FC = () => {
           <Col xs={24} md={5}>
             <div className="footer-section">
               <Title level={5} className="footer-section-title">
-                Product
+                {t('footer.sections.product.title')}
               </Title>
               <ul className="footer-links">
-                <li><Link href="#features">Features</Link></li>
-                <li><Link href="#how-it-works">How It Works</Link></li>
-                <li><Link href="https://todo4ai.org/" target="_blank">Get Started</Link></li>
-                <li><Link href="#">Pricing</Link></li>
-                <li><Link href="#">API</Link></li>
+                <li><Link href="#features">{t('footer.sections.product.links.features')}</Link></li>
+                <li><Link href="#how-it-works">{t('footer.sections.product.links.howItWorks')}</Link></li>
+                <li><Link href="https://todo4ai.org/" target="_blank">{t('footer.sections.product.links.getStarted')}</Link></li>
+                <li><Link href="#">{t('footer.sections.product.links.pricing')}</Link></li>
+                <li><Link href="#">{t('footer.sections.product.links.api')}</Link></li>
               </ul>
             </div>
           </Col>
@@ -78,14 +79,14 @@ const Footer: React.FC = () => {
           <Col xs={24} md={5}>
             <div className="footer-section">
               <Title level={5} className="footer-section-title">
-                Resources
+                {t('footer.sections.resources.title')}
               </Title>
               <ul className="footer-links">
-                <li><Link href="#">Documentation</Link></li>
-                <li><Link href="#">Tutorials</Link></li>
-                <li><Link href="#">Blog</Link></li>
-                <li><Link href="#">Community</Link></li>
-                <li><Link href="#">Support</Link></li>
+                <li><Link href="#">{t('footer.sections.resources.links.documentation')}</Link></li>
+                <li><Link href="#">{t('footer.sections.resources.links.tutorials')}</Link></li>
+                <li><Link href="#">{t('footer.sections.resources.links.blog')}</Link></li>
+                <li><Link href="#">{t('footer.sections.resources.links.community')}</Link></li>
+                <li><Link href="#">{t('footer.sections.resources.links.support')}</Link></li>
               </ul>
             </div>
           </Col>
@@ -93,14 +94,14 @@ const Footer: React.FC = () => {
           <Col xs={24} md={6}>
             <div className="footer-section">
               <Title level={5} className="footer-section-title">
-                Company
+                {t('footer.sections.company.title')}
               </Title>
               <ul className="footer-links">
-                <li><Link href="#">About Us</Link></li>
-                <li><Link href="#">Careers</Link></li>
-                <li><Link href="#">Privacy Policy</Link></li>
-                <li><Link href="#">Terms of Service</Link></li>
-                <li><Link href="#">Contact</Link></li>
+                <li><Link href="#">{t('footer.sections.company.links.about')}</Link></li>
+                <li><Link href="#">{t('footer.sections.company.links.careers')}</Link></li>
+                <li><Link href="#">{t('footer.sections.company.links.privacy')}</Link></li>
+                <li><Link href="#">{t('footer.sections.company.links.terms')}</Link></li>
+                <li><Link href="#">{t('footer.sections.company.links.contact')}</Link></li>
               </ul>
             </div>
           </Col>
@@ -112,12 +113,12 @@ const Footer: React.FC = () => {
           <Row justify="space-between" align="middle">
             <Col xs={24} md={12}>
               <Paragraph className="copyright">
-                © {currentYear} Todo4AI. All rights reserved.
+                {t('footer.copyright', { year: currentYear })}
               </Paragraph>
             </Col>
             <Col xs={24} md={12}>
               <Paragraph className="made-with-love">
-                Made with <HeartFilled className="heart-icon" /> for productivity enthusiasts
+                {t('footer.madeWithLove')}
               </Paragraph>
             </Col>
           </Row>

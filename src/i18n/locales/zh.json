@@ -1,0 +1,146 @@
+{
+  "header": {
+    "logo": "Todo4AI",
+    "tagline": "AI任务管理",
+    "menu": {
+      "features": "功能特色",
+      "howItWorks": "工作原理",
+      "documentation": "文档",
+      "github": "GitHub"
+    },
+    "getStarted": "开始使用"
+  },
+  "hero": {
+    "title": "AI驱动的任务管理",
+    "titleHighlight": "重新定义",
+    "description": "Todo4AI通过智能自动化、智能优先级排序和无缝AI集成，彻底改变您管理任务的方式。让人工智能处理复杂性，您专注于最重要的事情。",
+    "features": {
+      "smartTaskCreation": "智能任务创建",
+      "aiDrivenAutomation": "AI驱动自动化",
+      "openSource": "开源项目"
+    },
+    "buttons": {
+      "getStartedFree": "免费开始",
+      "viewOnGithub": "在GitHub上查看"
+    },
+    "demo": {
+      "title": "Todo4AI 控制台",
+      "tasks": {
+        "analyzed": "AI已分析并优先排序15个任务",
+        "creating": "正在创建自动化工作流...",
+        "review": "审查季度目标",
+        "optimize": "优化团队生产力"
+      }
+    }
+  },
+  "features": {
+    "title": "现代生产力的强大功能",
+    "subtitle": "探索Todo4AI如何通过前沿人工智能技术改变任务管理",
+    "items": {
+      "aiTaskCreation": {
+        "title": "AI驱动的任务创建",
+        "description": "使用先进的AI算法自动生成和分解复杂任务。让人工智能理解您的目标并创建可执行的任务列表。"
+      },
+      "smartPrioritization": {
+        "title": "智能优先级排序",
+        "description": "基于截止日期、依赖关系和重要性的智能优先级排序。通过AI驱动的调度建议，永远不会错过关键任务。"
+      },
+      "automatedWorkflows": {
+        "title": "自动化工作流",
+        "description": "创建适应您工作模式的复杂自动化规则。通过智能工作流自动化简化重复流程。"
+      },
+      "intelligentScheduling": {
+        "title": "智能调度",
+        "description": "AI分析您的日历、精力水平和任务复杂性，建议最佳调度。通过智能时间管理最大化生产力。"
+      },
+      "collaborativeAI": {
+        "title": "协作AI",
+        "description": "在团队间分享AI洞察，从集体生产力模式中学习。通过智能协作功能增强团队协调。"
+      },
+      "privacyFirst": {
+        "title": "隐私优先设计",
+        "description": "通过本地处理和加密存储确保数据安全。在不损害隐私或数据所有权的情况下享受AI优势。"
+      }
+    },
+    "cta": {
+      "title": "准备体验AI驱动的生产力了吗？",
+      "description": "加入数千名用户，他们已经通过Todo4AI彻底改变了任务管理方式"
+    }
+  },
+  "howItWorks": {
+    "title": "Todo4AI工作原理",
+    "subtitle": "通过AI驱动的任务管理，四个简单步骤改变您的生产力",
+    "steps": {
+      "connect": {
+        "title": "连接与设置",
+        "description": "注册并连接您现有的工具和工作流",
+        "details": "与您喜爱的生产力工具、日历和项目管理平台无缝集成。我们的AI从您现有的数据中学习，从第一天就提供个性化建议。"
+      },
+      "analysis": {
+        "title": "AI分析",
+        "description": "我们的AI分析您的模式和偏好",
+        "details": "先进的机器学习算法研究您的工作习惯、高效时段、任务完成模式和协作风格，创建个性化的生产力档案。"
+      },
+      "automation": {
+        "title": "智能自动化",
+        "description": "自动化任务创建、优先级排序和调度",
+        "details": "体验智能任务分解、自动优先级分配、智能截止日期建议，以及适应您精力水平和可用性的优化调度。"
+      },
+      "achieve": {
+        "title": "成就更多",
+        "description": "专注于重要事务，让AI处理复杂性",
+        "details": "通过AI驱动的洞察、自动化工作流和智能建议，将生产力提升高达40%，帮助您在更短时间内完成更多工作。"
+      }
+    },
+    "demo": {
+      "title": "观看Todo4AI实际操作",
+      "videoTitle": "观看演示视频",
+      "videoDescription": "了解Todo4AI如何将混乱的任务列表转变为有组织的AI驱动生产力系统"
+    }
+  },
+  "footer": {
+    "brand": {
+      "title": "Todo4AI",
+      "description": "通过人工智能革命性地改变任务管理。提升您的生产力，专注于真正重要的事情。"
+    },
+    "sections": {
+      "product": {
+        "title": "产品",
+        "links": {
+          "features": "功能特色",
+          "howItWorks": "工作原理",
+          "getStarted": "开始使用",
+          "pricing": "价格",
+          "api": "API"
+        }
+      },
+      "resources": {
+        "title": "资源",
+        "links": {
+          "documentation": "文档",
+          "tutorials": "教程",
+          "blog": "博客",
+          "community": "社区",
+          "support": "支持"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "links": {
+          "about": "关于我们",
+          "careers": "招聘",
+          "privacy": "隐私政策",
+          "terms": "服务条款",
+          "contact": "联系我们"
+        }
+      }
+    },
+    "copyright": "© {{year}} Todo4AI. 保留所有权利。",
+    "madeWithLove": "为生产力爱好者用❤️制作"
+  },
+  "language": {
+    "switch": "切换语言",
+    "english": "English",
+    "chinese": "简体中文"
+  }
+}
