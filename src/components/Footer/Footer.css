@@ -1,0 +1,238 @@
+.site-footer {
+  background: #1a1a1a !important;
+  color: white;
+  padding: 80px 0 0 !important;
+  margin-top: 0 !important;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer-brand {
+  margin-bottom: 32px;
+}
+
+.footer-logo {
+  color: white !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 24px !important;
+  max-width: 300px;
+}
+
+.social-links {
+  display: flex !important;
+  gap: 16px !important;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+
+.social-link:hover {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+.social-link .anticon {
+  font-size: 18px;
+}
+
+.footer-section {
+  margin-bottom: 32px;
+}
+
+.footer-section-title {
+  color: white !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white !important;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  margin: 40px 0 32px !important;
+}
+
+.footer-bottom {
+  padding-bottom: 32px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+}
+
+.made-with-love {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+  text-align: right;
+}
+
+.heart-icon {
+  color: #ff6b6b;
+  margin: 0 4px;
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .site-footer {
+    padding: 60px 0 0 !important;
+  }
+  
+  .footer-content {
+    padding: 0 16px;
+  }
+  
+  .footer-brand {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-description {
+    max-width: none;
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center !important;
+  }
+  
+  .footer-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-section-title {
+    margin-bottom: 16px !important;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .made-with-love {
+    text-align: center !important;
+    margin-top: 16px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 40px 0 0 !important;
+  }
+  
+  .footer-content {
+    padding: 0 12px;
+  }
+  
+  .footer-logo {
+    font-size: 1.6rem !important;
+  }
+  
+  .footer-description {
+    font-size: 0.9rem !important;
+  }
+  
+  .social-link {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .social-link .anticon {
+    font-size: 16px;
+  }
+  
+  .footer-section-title {
+    font-size: 1rem !important;
+  }
+  
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom {
+    padding-bottom: 24px;
+  }
+  
+  .copyright,
+  .made-with-love {
+    font-size: 0.8rem !important;
+  }
+}
