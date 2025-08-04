@@ -13,7 +13,7 @@
   "hero": {
     "title": "AI驱动的任务管理",
     "titleHighlight": "重新定义",
-    "description": "Todo4AI通过智能自动化、智能优先级排序和无缝AI集成，彻底改变您管理任务的方式。让人工智能处理复杂性，您专注于最重要的事情。",
+    "description": "Todo4AI通过自动化功能、优先级排序和AI集成，帮助您更好地管理任务。让AI协助处理复杂性，您专注于最重要的事情。",
     "features": {
       "smartTaskCreation": "智能任务创建",
       "aiDrivenAutomation": "AI驱动自动化",
@@ -43,16 +43,16 @@
     }
   },
   "features": {
-    "title": "现代生产力的强大功能",
-    "subtitle": "探索Todo4AI如何通过前沿人工智能技术改变任务管理",
+    "title": "现代生产力的实用功能",
+    "subtitle": "探索Todo4AI如何通过AI技术改善任务管理",
     "items": {
       "aiTaskCreation": {
         "title": "AI驱动的任务创建",
-        "description": "使用先进的AI算法自动生成和分解复杂任务。让人工智能理解您的目标并创建可执行的任务列表。"
+        "description": "使用AI算法自动生成和分解复杂任务。让AI协助理解您的目标并创建可执行的任务列表。"
       },
       "smartPrioritization": {
         "title": "智能优先级排序",
-        "description": "基于截止日期、依赖关系和重要性的智能优先级排序。通过AI驱动的调度建议，永远不会错过关键任务。"
+        "description": "基于截止日期、依赖关系和重要性的优先级排序。通过AI调度建议，帮助您更好地管理关键任务。"
       },
       "automatedWorkflows": {
         "title": "自动化工作流",
@@ -60,11 +60,11 @@
       },
       "intelligentScheduling": {
         "title": "智能调度",
-        "description": "AI分析您的日历、精力水平和任务复杂性，建议最佳调度。通过智能时间管理最大化生产力。"
+        "description": "AI分析您的日历、精力水平和任务复杂性，建议合适的调度。通过时间管理提升生产力。"
       },
       "collaborativeAI": {
         "title": "协作AI",
-        "description": "在团队间分享AI洞察，从集体生产力模式中学习。通过智能协作功能增强团队协调。"
+        "description": "在团队间分享AI洞察，从集体生产力模式中学习。通过协作功能增强团队协调。"
       },
       "privacyFirst": {
         "title": "隐私优先设计",
@@ -85,7 +85,7 @@
     },
     "cta": {
       "title": "准备体验AI驱动的生产力了吗？",
-      "description": "加入数千名用户，他们已经通过Todo4AI彻底改变了任务管理方式"
+      "description": "加入众多用户，他们已经通过Todo4AI改善了任务管理方式"
     }
   },
   "howItWorks": {
@@ -100,17 +100,17 @@
       "analysis": {
         "title": "AI学习",
         "description": "AI分析您的工作模式和任务历史",
-        "details": "我们的先进AI引擎研究您的任务完成模式，识别生产力高峰，分析任务依赖关系，并学习您的偏好以创建个性化的生产力档案。"
+        "details": "我们的AI引擎研究您的任务完成模式，识别生产力高峰，分析任务依赖关系，并学习您的偏好以创建个性化的生产力档案。"
       },
       "automation": {
         "title": "智能自动化",
         "description": "AI自动管理任务、优先级和调度",
-        "details": "体验智能任务分解、基于紧急性和重要性的自动优先级分配、智能截止日期建议，以及适应您精力水平和可用性的优化调度。"
+        "details": "体验任务分解、基于紧急性和重要性的自动优先级分配、截止日期建议，以及适应您精力水平和可用性的调度优化。"
       },
       "achieve": {
         "title": "提升生产力",
         "description": "专注于高价值工作，让AI处理细节",
-        "details": "通过AI驱动的洞察、自动化日常任务、智能建议和工作流程的实时优化，实现高达40%的生产力提升。"
+        "details": "通过AI洞察、自动化日常任务、建议和工作流程的实时优化，帮助提升生产力。"
       }
     },
     "demo": {
@@ -122,7 +122,7 @@
   "footer": {
     "brand": {
       "title": "Todo4AI",
-      "description": "通过人工智能革命性地改变任务管理。提升您的生产力，专注于真正重要的事情。"
+      "description": "通过人工智能改善任务管理。提升您的生产力，专注于真正重要的事情。"
     },
     "sections": {
       "product": {

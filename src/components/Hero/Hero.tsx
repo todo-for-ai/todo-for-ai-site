@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
 
           <div className="hero-stats">
             <div className="stat-item">
-              <Badge count="40%" className="stat-badge" />
+              <Badge count="✓" className="stat-badge" />
               <span className="stat-label">{t('hero.stats.productivityBoost')}</span>
             </div>
             <div className="stat-item">
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
               <span className="stat-label">{t('hero.stats.aiAssistance')}</span>
             </div>
             <div className="stat-item">
-              <Badge count="100%" className="stat-badge" />
+              <Badge count="✓" className="stat-badge" />
               <span className="stat-label">{t('hero.stats.privacyProtected')}</span>
             </div>
           </div>

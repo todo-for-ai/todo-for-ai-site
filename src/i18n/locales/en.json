@@ -13,7 +13,7 @@
   "hero": {
     "title": "AI-Powered Task Management",
     "titleHighlight": "Reimagined",
-    "description": "Todo4AI revolutionizes how you manage tasks with intelligent automation, smart prioritization, and seamless AI integration. Let artificial intelligence handle the complexity while you focus on what matters most.",
+    "description": "Todo4AI helps you manage tasks with automation features, prioritization, and AI integration. Let AI assist with complexity while you focus on what matters most.",
     "features": {
       "smartTaskCreation": "Smart Task Creation",
       "aiDrivenAutomation": "AI-Driven Automation",
@@ -43,28 +43,28 @@
     }
   },
   "features": {
-    "title": "Powerful Features for Modern Productivity",
-    "subtitle": "Discover how Todo4AI transforms task management with cutting-edge artificial intelligence",
+    "title": "Practical Features for Modern Productivity",
+    "subtitle": "Discover how Todo4AI improves task management with artificial intelligence",
     "items": {
       "aiTaskCreation": {
         "title": "AI-Powered Task Creation",
-        "description": "Automatically generate and break down complex tasks using advanced AI algorithms. Let artificial intelligence understand your goals and create actionable task lists."
+        "description": "Automatically generate and break down complex tasks using AI algorithms. Let AI assist in understanding your goals and create actionable task lists."
       },
       "smartPrioritization": {
         "title": "Smart Prioritization",
-        "description": "Intelligent priority ranking based on deadlines, dependencies, and importance. Never miss critical tasks with AI-driven scheduling recommendations."
+        "description": "Priority ranking based on deadlines, dependencies, and importance. Better manage critical tasks with AI scheduling recommendations."
       },
       "automatedWorkflows": {
         "title": "Automated Workflows",
-        "description": "Create sophisticated automation rules that adapt to your work patterns. Streamline repetitive processes with intelligent workflow automation."
+        "description": "Create automation rules that adapt to your work patterns. Streamline repetitive processes with workflow automation."
       },
       "intelligentScheduling": {
         "title": "Intelligent Scheduling",
-        "description": "AI analyzes your calendar, energy levels, and task complexity to suggest optimal scheduling. Maximize productivity with smart time management."
+        "description": "AI analyzes your calendar, energy levels, and task complexity to suggest suitable scheduling. Improve productivity with time management."
       },
       "collaborativeAI": {
         "title": "Collaborative AI",
-        "description": "Share AI insights across teams and learn from collective productivity patterns. Enhance team coordination with intelligent collaboration features."
+        "description": "Share AI insights across teams and learn from collective productivity patterns. Enhance team coordination with collaboration features."
       },
       "privacyFirst": {
         "title": "Privacy-First Design",
@@ -85,7 +85,7 @@
     },
     "cta": {
       "title": "Ready to Experience AI-Powered Productivity?",
-      "description": "Join thousands of users who have revolutionized their task management with Todo4AI"
+      "description": "Join many users who have improved their task management with Todo4AI"
     }
   },
   "howItWorks": {
@@ -100,17 +100,17 @@
       "analysis": {
         "title": "AI Learning",
         "description": "AI analyzes your work patterns and task history",
-        "details": "Our advanced AI engine studies your task completion patterns, identifies productivity peaks, analyzes task dependencies, and learns your preferences to create a personalized productivity profile."
+        "details": "Our AI engine studies your task completion patterns, identifies productivity peaks, analyzes task dependencies, and learns your preferences to create a personalized productivity profile."
       },
       "automation": {
         "title": "Intelligent Automation",
         "description": "AI automatically manages tasks, priorities, and schedules",
-        "details": "Experience smart task breakdown, automatic priority assignment based on urgency and importance, intelligent deadline suggestions, and optimized scheduling that adapts to your energy levels and availability."
+        "details": "Experience task breakdown, automatic priority assignment based on urgency and importance, deadline suggestions, and optimized scheduling that adapts to your energy levels and availability."
       },
       "achieve": {
         "title": "Enhanced Productivity",
         "description": "Focus on high-value work while AI handles the details",
-        "details": "Achieve up to 40% productivity improvement with AI-powered insights, automated routine tasks, intelligent recommendations, and real-time optimization of your workflow."
+        "details": "Improve productivity with AI insights, automated routine tasks, recommendations, and real-time optimization of your workflow."
       }
     },
     "demo": {
@@ -122,7 +122,7 @@
   "footer": {
     "brand": {
       "title": "Todo4AI",
-      "description": "Revolutionizing task management with artificial intelligence. Boost your productivity and focus on what truly matters."
+      "description": "Improving task management with artificial intelligence. Boost your productivity and focus on what truly matters."
     },
     "sections": {
       "product": {
