@@ -19,8 +19,8 @@
 
 .ai-editors-circle {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,24 +37,30 @@
   animation-delay: calc(var(--index) * 0.5s);
 }
 
-/* 半圆形布局 - 从上到下排列 */
+/* 半圆形布局 - 基于140px半径的精确计算，角度从90°到270° */
 .ai-editor-0 {
-  transform: translate(-90px, -70px); /* Cursor - 左上 */
+  left: calc(50% - 99px);
+  top: calc(50% - 99px); /* Cursor - 135° (左上) */
 }
 .ai-editor-1 {
-  transform: translate(-110px, -20px); /* TRAE - 左中上 */
+  left: calc(50% - 140px);
+  top: calc(50% - 50px); /* TRAE - 160° (左中上) */
 }
 .ai-editor-2 {
-  transform: translate(-110px, 20px); /* Windsurf - 左中下 */
+  left: calc(50% - 140px);
+  top: calc(50% + 0px); /* Windsurf - 180° (正左) */
 }
 .ai-editor-3 {
-  transform: translate(-90px, 70px); /* GitHub Copilot - 左下 */
+  left: calc(50% - 140px);
+  top: calc(50% + 50px); /* GitHub Copilot - 200° (左中下) */
 }
 .ai-editor-4 {
-  transform: translate(-50px, -90px); /* Replit - 上方 */
+  left: calc(50% - 99px);
+  top: calc(50% + 99px); /* Replit - 225° (左下) */
 }
 .ai-editor-5 {
-  transform: translate(-50px, 90px); /* V0 - 下方 */
+  left: calc(50% - 50px);
+  top: calc(50% + 130px); /* V0 - 250° (下方) */
 }
 
 .ai-editor-icon {
@@ -261,16 +267,16 @@
   }
   
   .ai-editors-circle {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
-  
-  .ai-editor-0 { transform: translate(-60px, -45px); }
-  .ai-editor-1 { transform: translate(-75px, 0px); }
-  .ai-editor-2 { transform: translate(-60px, 45px); }
-  .ai-editor-3 { transform: translate(-30px, -60px); }
-  .ai-editor-4 { transform: translate(-30px, 60px); }
-  .ai-editor-5 { transform: translate(-45px, 0px); }
+
+  .ai-editor-0 { left: calc(50% - 70px); top: calc(50% - 70px); }
+  .ai-editor-1 { left: calc(50% - 100px); top: calc(50% - 35px); }
+  .ai-editor-2 { left: calc(50% - 100px); top: calc(50% + 0px); }
+  .ai-editor-3 { left: calc(50% - 100px); top: calc(50% + 35px); }
+  .ai-editor-4 { left: calc(50% - 70px); top: calc(50% + 70px); }
+  .ai-editor-5 { left: calc(50% - 35px); top: calc(50% + 90px); }
   
   .ai-editor-icon {
     width: 32px;
