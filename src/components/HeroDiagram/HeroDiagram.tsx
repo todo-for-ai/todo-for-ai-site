@@ -21,12 +21,12 @@ const HeroDiagram: React.FC = () => {
 
     // 计算目标位置（基于新的半圆形拱卫布局）
     const positions = [
-      { x: centerX - 220, y: centerY + 0 },   // Cursor - 180° (正左)
-      { x: centerX - 190, y: centerY - 110 }, // TRAE - 150° (左上)
-      { x: centerX - 110, y: centerY - 190 }, // Windsurf - 120° (上左)
-      { x: centerX - 110, y: centerY + 190 }, // GitHub Copilot - 240° (下左)
-      { x: centerX - 190, y: centerY + 110 }, // Replit - 210° (左下)
-      { x: centerX - 155, y: centerY - 155 }, // V0 - 135° (左上角)
+      { x: centerX - 100, y: centerY - 173 }, // Cursor - 120° (左上)
+      { x: centerX - 173, y: centerY - 100 }, // TRAE - 150° (左上偏左)
+      { x: centerX - 200, y: centerY + 0 },   // Windsurf - 180° (正左)
+      { x: centerX - 173, y: centerY + 100 }, // GitHub Copilot - 210° (左下偏左)
+      { x: centerX - 100, y: centerY + 173 }, // Replit - 240° (左下)
+      { x: centerX - 0, y: centerY - 200 },   // V0 - 90° (正上)
     ];
 
     const target = positions[index];
