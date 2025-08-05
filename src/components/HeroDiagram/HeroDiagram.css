@@ -42,35 +42,61 @@
   animation-delay: calc(var(--index) * 0.5s);
 }
 
-/* 半圆形围绕布局 - 基于200px半径，围绕中心Todo for AI */
+.ai-editor-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  padding: 4px;
+}
+
+.ai-editor-link:hover {
+  transform: scale(1.05);
+}
+
+.ai-editor-link:hover .ai-editor-icon {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.ai-editor-link:hover .ai-editor-name {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 半圆形拱卫布局 - 基于220px半径，6个图标在左侧半圆分布 */
 .ai-editor-0 {
-  left: calc(50% - 141px);
-  top: calc(50% - 141px); /* Cursor - 225° (左上) */
+  left: calc(50% - 220px);
+  top: calc(50% - 0px); /* Cursor - 180° (正左) */
 }
 .ai-editor-1 {
-  left: calc(50% - 200px);
-  top: calc(50% - 70px); /* TRAE - 250° (左中上) */
+  left: calc(50% - 190px);
+  top: calc(50% - 110px); /* TRAE - 150° (左上) */
 }
 .ai-editor-2 {
-  left: calc(50% - 200px);
-  top: calc(50% + 0px); /* Windsurf - 270° (正左) */
+  left: calc(50% - 110px);
+  top: calc(50% - 190px); /* Windsurf - 120° (上左) */
 }
 .ai-editor-3 {
-  left: calc(50% - 200px);
-  top: calc(50% + 70px); /* GitHub Copilot - 290° (左中下) */
+  left: calc(50% - 110px);
+  top: calc(50% + 190px); /* GitHub Copilot - 240° (下左) */
 }
 .ai-editor-4 {
-  left: calc(50% - 141px);
-  top: calc(50% + 141px); /* Replit - 315° (左下) */
+  left: calc(50% - 190px);
+  top: calc(50% + 110px); /* Replit - 210° (左下) */
 }
 .ai-editor-5 {
-  left: calc(50% + 0px);
-  top: calc(50% + 200px); /* V0 - 0° (下方) */
+  left: calc(50% - 155px);
+  top: calc(50% - 155px); /* V0 - 135° (左上角) */
 }
 
 .ai-editor-icon {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -87,8 +113,8 @@
 }
 
 .ai-editor-icon img {
-  width: 28px;
-  height: 28px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
 }
 
@@ -148,6 +174,62 @@
   }
 }
 
+/* 开发者到Todo For AI的连接线样式 */
+.developer-arrow-path {
+  animation: developer-arrow-flow 3s ease-in-out infinite, developer-arrow-pulse 2s ease-in-out infinite;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.4));
+}
+
+.developer-arrow-path:hover {
+  opacity: 1;
+  stroke-width: 4;
+}
+
+@keyframes developer-arrow-flow {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -30;
+  }
+}
+
+@keyframes developer-arrow-pulse {
+  0%, 100% {
+    opacity: 0.6;
+    stroke: rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    opacity: 1;
+    stroke: rgba(255, 255, 255, 1);
+  }
+}
+
+/* 开发者连接线文字样式 */
+.developer-connection-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  animation: text-glow 2s ease-in-out infinite;
+  cursor: default;
+  user-select: none;
+}
+
+.developer-connection-text:hover {
+  fill: rgba(255, 255, 255, 1);
+}
+
+@keyframes text-glow {
+  0%, 100% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.3));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+  }
+}
+
 
 
 /* 中心Todo for AI logo */
@@ -166,6 +248,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.todo-logo-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.todo-logo-link:hover {
+  transform: scale(1.05);
+}
+
+.todo-logo-link:hover .todo-logo {
+  box-shadow: 0 12px 32px rgba(255, 255, 255, 0.4);
+}
+
+.todo-logo-link:hover .todo-logo-glow {
+  opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .todo-logo {
@@ -209,10 +317,23 @@
   50% { opacity: 0.6; }
 }
 
+.todo-logo-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px 12px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  margin-top: 8px;
+  white-space: nowrap;
+}
+
 /* 右侧开发者小人 */
 .developer-section {
   position: absolute;
-  right: 50px;
+  right: 100px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
@@ -277,21 +398,21 @@
     height: 350px;
   }
 
-  .ai-editor-0 { left: calc(50% - 99px); top: calc(50% - 99px); }
-  .ai-editor-1 { left: calc(50% - 140px); top: calc(50% - 49px); }
-  .ai-editor-2 { left: calc(50% - 140px); top: calc(50% + 0px); }
-  .ai-editor-3 { left: calc(50% - 140px); top: calc(50% + 49px); }
-  .ai-editor-4 { left: calc(50% - 99px); top: calc(50% + 99px); }
-  .ai-editor-5 { left: calc(50% + 0px); top: calc(50% + 140px); }
+  .ai-editor-0 { left: calc(50% - 133px); top: calc(50% - 77px); }
+  .ai-editor-1 { left: calc(50% - 154px); top: calc(50% + 0px); }
+  .ai-editor-2 { left: calc(50% - 133px); top: calc(50% + 77px); }
+  .ai-editor-3 { left: calc(50% + 0px); top: calc(50% + 154px); }
+  .ai-editor-4 { left: calc(50% + 133px); top: calc(50% + 77px); }
+  .ai-editor-5 { left: calc(50% + 154px); top: calc(50% + 0px); }
 
   .ai-editor-icon {
-    width: 32px;
-    height: 32px;
+    width: 45px;
+    height: 45px;
   }
 
   .ai-editor-icon img {
-    width: 22px;
-    height: 22px;
+    width: 32px;
+    height: 32px;
   }
 
   .todo-logo-container {
