@@ -68,30 +68,30 @@
   color: rgba(255, 255, 255, 1);
 }
 
-/* 半圆形拱卫布局 - 基于200px半径，6个图标在左侧半圆均匀分布 */
+/* 半圆形拱卫布局 - 基于180px半径，6个图标在左侧半圆紧凑分布 */
 .ai-editor-0 {
-  left: calc(50% - 100px);
-  top: calc(50% - 173px); /* Cursor - 120° (左上) */
+  left: calc(50% - 127px);
+  top: calc(50% - 127px); /* Cursor - 135° (左上角) */
 }
 .ai-editor-1 {
-  left: calc(50% - 173px);
-  top: calc(50% - 100px); /* TRAE - 150° (左上偏左) */
+  left: calc(50% - 161px);
+  top: calc(50% - 82px); /* TRAE - 153° (左上) */
 }
 .ai-editor-2 {
-  left: calc(50% - 200px);
-  top: calc(50% + 0px); /* Windsurf - 180° (正左) */
+  left: calc(50% - 178px);
+  top: calc(50% - 28px); /* Windsurf - 171° (左偏上) */
 }
 .ai-editor-3 {
-  left: calc(50% - 173px);
-  top: calc(50% + 100px); /* GitHub Copilot - 210° (左下偏左) */
+  left: calc(50% - 178px);
+  top: calc(50% + 28px); /* GitHub Copilot - 189° (左偏下) */
 }
 .ai-editor-4 {
-  left: calc(50% - 100px);
-  top: calc(50% + 173px); /* Replit - 240° (左下) */
+  left: calc(50% - 161px);
+  top: calc(50% + 82px); /* Replit - 207° (左下) */
 }
 .ai-editor-5 {
-  left: calc(50% - 0px);
-  top: calc(50% - 200px); /* V0 - 90° (正上) */
+  left: calc(50% - 127px);
+  top: calc(50% + 127px); /* V0 - 225° (左下角) */
 }
 
 .ai-editor-icon {
