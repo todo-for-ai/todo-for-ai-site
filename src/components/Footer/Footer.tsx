@@ -4,8 +4,7 @@ import {
   GithubOutlined,
   TwitterOutlined,
   LinkedinOutlined,
-  MailOutlined,
-  HeartFilled
+  MailOutlined
 } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import './Footer.css';

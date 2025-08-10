@@ -1,6 +1,5 @@
 import React from 'react';
 import { Layout, Menu, Button } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 import GitHubBadge from '../GitHubBadge/GitHubBadge';

@@ -3,7 +3,6 @@ import { Button, Typography, Space, Badge } from 'antd';
 import {
   RocketOutlined,
   GithubOutlined,
-  PlayCircleOutlined,
   ThunderboltOutlined,
   BranchesOutlined,
   ClockCircleOutlined,
