@@ -37,7 +37,7 @@ const Header: React.FC = () => {
     <AntHeader className="site-header">
       <div className="header-content">
         <div className="logo" onClick={handleLogoClick}>
-          <img src="/images/logo.png" alt="Todo4AI Logo" className="logo-image" />
+          <img src="/images/favicon-round.png" alt="Todo4AI Logo" className="logo-image" />
           <div className="logo-text">
             <h1>{t('header.logo')}</h1>
             <span className="tagline">{t('header.tagline')}</span>

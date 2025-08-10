@@ -1843,3 +1843,204 @@ src/components/Header/Header.tsx
 
 webpack compiled with 1 warning
 No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+No issues found.
+Compiled with warnings.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 11:9:  'showModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 51:10:  'Modal' is not defined           react/jsx-no-undef
+  Line 54:16:  'WechatOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+ERROR in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 51:10:  'Modal' is not defined           react/jsx-no-undef
+  Line 54:16:  'WechatOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:51:10
+TS2304: Cannot find name 'Modal'.
+    49 |
+    50 |       {isChineseLanguage && (
+  > 51 |         <Modal
+       |          ^^^^^
+    52 |           title={
+    53 |             <div className="modal-title">
+    54 |               <WechatOutlined style={{ color: '#07c160', marginRight: 8 }} />
+
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:54:16
+TS2304: Cannot find name 'WechatOutlined'.
+    52 |           title={
+    53 |             <div className="modal-title">
+  > 54 |               <WechatOutlined style={{ color: '#07c160', marginRight: 8 }} />
+       |                ^^^^^^^^^^^^^^
+    55 |               {t('community.modal.title')}
+    56 |             </div>
+    57 |           }
+
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:58:17
+TS2304: Cannot find name 'isModalVisible'.
+    56 |             </div>
+    57 |           }
+  > 58 |           open={isModalVisible}
+       |                 ^^^^^^^^^^^^^^
+    59 |           onCancel={handleCancel}
+    60 |           footer={null}
+    61 |           centered
+
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:59:21
+TS2304: Cannot find name 'handleCancel'.
+    57 |           }
+    58 |           open={isModalVisible}
+  > 59 |           onCancel={handleCancel}
+       |                     ^^^^^^^^^^^^
+    60 |           footer={null}
+    61 |           centered
+    62 |           className="community-modal"
+
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:72:11
+TS2304: Cannot find name 'Modal'.
+    70 |             <p className="qr-description">{t('community.modal.description')}</p>
+    71 |           </div>
+  > 72 |         </Modal>
+       |           ^^^^^
+    73 |       )}
+    74 |     </div>
+    75 |   );
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
