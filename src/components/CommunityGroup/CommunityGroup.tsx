@@ -25,12 +25,26 @@ const CommunityGroup: React.FC = () => {
           <p>{t('community.description')}</p>
           {isChineseLanguage && (
             <div className="qr-display">
-              <img
-                src="/images/wechat-group-qr.png"
-                alt={t('community.modal.qrAlt')}
-                className="qr-code-inline"
-              />
-              <p className="qr-description-inline">{t('community.modal.description')}</p>
+              <div className="qr-codes-container">
+                <div className="qr-code-item">
+                  <img
+                    src="/images/wechat-group-qr.png"
+                    alt={t('community.modal.qrAlt')}
+                    className="qr-code-inline"
+                  />
+                  <p className="qr-label">微信交流群</p>
+                  <p className="qr-description-inline">{t('community.modal.description')}</p>
+                </div>
+                <div className="qr-code-item">
+                  <img
+                    src="/images/cc11001100-wechat-qrcode.png"
+                    alt="作者个人微信"
+                    className="qr-code-inline"
+                  />
+                  <p className="qr-label">作者个人微信</p>
+                  <p className="qr-description-inline">欢迎一起探讨AI技术</p>
+                </div>
+              </div>
             </div>
           )}
         </div>
