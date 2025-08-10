@@ -11,9 +11,9 @@
     "getStarted": "开始使用"
   },
   "hero": {
-    "title": "AI驱动的任务管理",
-    "titleHighlight": "重新定义",
-    "description": "Todo4AI通过自动化功能、优先级排序和AI集成，帮助您更好地管理任务。让AI协助处理复杂性，您专注于最重要的事情。",
+    "title": "跟AI一起的敏捷开发",
+    "titleHighlight": "重塑AI时代的软件工程开发模式",
+    "description": "Todo4AI是专为AI时代设计的敏捷开发工具，通过智能任务管理、自动化工作流和AI协作，重新定义软件工程开发模式。让AI成为您的开发伙伴，提升团队协作效率。",
     "features": {
       "smartTaskCreation": "智能任务创建",
       "aiDrivenAutomation": "AI驱动自动化",
