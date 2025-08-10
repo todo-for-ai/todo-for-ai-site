@@ -1,0 +1,88 @@
+.github-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #24292e;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  user-select: none;
+}
+
+.github-badge:hover {
+  background: #2f363d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(36, 41, 46, 0.3);
+}
+
+.github-badge:focus {
+  box-shadow: 0 0 0 2px rgba(36, 41, 46, 0.4);
+}
+
+.github-badge-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.github-icon {
+  font-size: 16px;
+  color: white;
+}
+
+.stars-count {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.star-icon {
+  font-size: 12px;
+  color: #ffd700;
+}
+
+.stars-number {
+  color: white;
+  font-weight: 600;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .github-badge {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  .github-icon {
+    font-size: 14px;
+  }
+  
+  .stars-count {
+    font-size: 11px;
+    padding: 1px 4px;
+  }
+  
+  .star-icon {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .github-badge {
+    padding: 3px 6px;
+  }
+  
+  .github-badge-content {
+    gap: 6px;
+  }
+}

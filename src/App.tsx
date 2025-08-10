@@ -4,6 +4,8 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import HowItWorks from './components/HowItWorks/HowItWorks';
+import CommunityGroup from './components/CommunityGroup/CommunityGroup';
+import FloatingCommunity from './components/FloatingCommunity/FloatingCommunity';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -17,8 +19,10 @@ function App() {
         <Hero />
         <Features />
         <HowItWorks />
+        <CommunityGroup />
       </Content>
       <Footer />
+      <FloatingCommunity />
     </Layout>
   );
 }

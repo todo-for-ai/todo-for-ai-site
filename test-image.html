@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Developer Image</title>
+    <style>
+        .developer-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: bounce 4s ease-in-out infinite;
+        }
+
+        .developer-image {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Testing Images</h1>
+
+    <p>Developer image:</p>
+    <img src="./public/devloper.png" alt="Developer" class="developer-image">
+
+    <p>Todo for AI favicon-round:</p>
+    <img src="./public/images/favicon-round.png" alt="Todo for AI" class="developer-image">
+
+    <p>Test direct path:</p>
+    <img src="public/images/favicon-round.png" alt="Todo for AI Direct" class="developer-image">
+</body>
+</html>

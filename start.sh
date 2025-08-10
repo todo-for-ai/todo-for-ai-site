@@ -275,6 +275,12 @@ main() {
         exit 0
     fi
     
+    # If force restart or port is in use, always cleanup existing processes
+    if check_port $PORT; then
+        print_status "Port $PORT is in use, cleaning up existing processes..."
+        cleanup_existing_processes
+    fi
+    
     # Execute startup sequence
     check_prerequisites
     cleanup_existing_processes

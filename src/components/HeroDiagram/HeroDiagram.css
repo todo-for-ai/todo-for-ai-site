@@ -3,11 +3,11 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 40px 20px;
   position: relative;
-  min-height: 500px;
+  min-height: 450px;
 }
 
 /* AI编辑器围绕布局 */
@@ -24,8 +24,8 @@
 
 .ai-editors-circle {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,6 @@
 
 .ai-editor-link:hover .ai-editor-icon {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 .ai-editor-link:hover .ai-editor-name {
@@ -68,54 +67,59 @@
   color: rgba(255, 255, 255, 1);
 }
 
-/* 半圆形拱卫布局 - 基于180px半径，6个图标在左侧半圆紧凑分布 */
+/* 半圆形拱卫布局 - 基于320px半径，6个图标在左侧半圆适度分布，间距扩大1.5倍 */
 .ai-editor-0 {
-  left: calc(50% - 127px);
-  top: calc(50% - 127px); /* Cursor - 135° (左上角) */
+  left: calc(50% - 170px);
+  top: calc(50% - 250px); /* Cursor - 135° (左上角) */
 }
 .ai-editor-1 {
-  left: calc(50% - 161px);
-  top: calc(50% - 82px); /* TRAE - 153° (左上) */
+  left: calc(50% - 221px);
+  top: calc(50% - 150px); /* TRAE - 153° (左上) */
 }
 .ai-editor-2 {
-  left: calc(50% - 178px);
-  top: calc(50% - 28px); /* Windsurf - 171° (左偏上) */
+  left: calc(50% - 240px);
+  top: calc(50% - 50px); /* Windsurf - 171° (左偏上) */
 }
 .ai-editor-3 {
-  left: calc(50% - 178px);
-  top: calc(50% + 28px); /* GitHub Copilot - 189° (左偏下) */
+  left: calc(50% - 240px);
+  top: calc(50% + 50px); /* GitHub Copilot - 189° (左偏下) */
 }
 .ai-editor-4 {
-  left: calc(50% - 161px);
-  top: calc(50% + 82px); /* Replit - 207° (左下) */
+  left: calc(50% - 221px);
+  top: calc(50% + 150px); /* Replit - 207° (左下) */
 }
 .ai-editor-5 {
-  left: calc(50% - 127px);
-  top: calc(50% + 127px); /* V0 - 225° (左下角) */
+  left: calc(50% - 170px);
+  top: calc(50% + 250px); /* V0 - 225° (左下角) */
 }
 
 .ai-editor-icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
 }
 
 .ai-editor-icon:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 .ai-editor-icon img {
   width: 42px;
   height: 42px;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* 特殊处理Kiro和Windsurf图标，放大图片填满圆形 */
+.ai-editor-5 .ai-editor-icon img,
+.ai-editor-2 .ai-editor-icon img {
+  transform: scale(1.4);
 }
 
 .ai-editor-name {
@@ -128,6 +132,17 @@
   border-radius: 8px;
   backdrop-filter: blur(5px);
   white-space: nowrap;
+}
+
+/* 重新设计的箭头SVG */
+.connections-svg {
+  position: absolute;
+  top: 0;
+  left: -220px; /* 向左扩展以包含开发者位置 */
+  width: calc(100% + 640px); /* 扩展宽度以容纳右移200px的开发者位置 */
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* 贝塞尔曲线箭头 */
@@ -178,7 +193,7 @@
 .developer-arrow-path {
   animation: developer-arrow-flow 3s ease-in-out infinite, developer-arrow-pulse 2s ease-in-out infinite;
   opacity: 0.8;
-  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.4));
+  filter: drop-shadow(0 0 4px rgba(255, 0, 0, 0.4));
 }
 
 .developer-arrow-path:hover {
@@ -198,11 +213,11 @@
 @keyframes developer-arrow-pulse {
   0%, 100% {
     opacity: 0.6;
-    stroke: rgba(255, 255, 255, 0.6);
+    stroke: rgba(255, 0, 0, 0.6);
   }
   50% {
     opacity: 1;
-    stroke: rgba(255, 255, 255, 1);
+    stroke: rgba(255, 0, 0, 1);
   }
 }
 
@@ -230,6 +245,88 @@
   }
 }
 
+/* 新的箭头动画样式 */
+.arrow-line {
+  stroke-dasharray: 8, 4;
+  animation: arrow-flow 3s ease-in-out infinite;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: var(--delay);
+}
+
+.arrow-glow {
+  opacity: 0;
+  animation: glow-appear 0.5s ease-in-out forwards;
+  animation-delay: var(--delay);
+}
+
+.developer-line {
+  stroke-dasharray: 15, 10;
+  animation: developer-flow 2s ease-in-out infinite;
+}
+
+.developer-glow {
+  animation: developer-glow-pulse 2s ease-in-out infinite;
+}
+
+.connection-label {
+  opacity: 0;
+  animation: text-appear 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes arrow-flow {
+  0% {
+    stroke-dashoffset: 0;
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: -24;
+    opacity: 0.7;
+  }
+}
+
+@keyframes developer-flow {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -50;
+  }
+}
+
+@keyframes glow-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes developer-glow-pulse {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes text-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
+}
+
 
 
 /* 中心Todo for AI logo */
@@ -237,14 +334,18 @@
   position: relative;
   z-index: 10;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+  /* 向右偏移150px */
+  transform: translateX(100px);
 }
 
 .todo-logo-container {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,47 +369,34 @@
 }
 
 .todo-logo-link:hover .todo-logo {
-  box-shadow: 0 12px 32px rgba(255, 255, 255, 0.4);
+  /* 移除边框效果 */
 }
 
 .todo-logo-link:hover .todo-logo-glow {
-  opacity: 0.8;
-  transform: scale(1.1);
+  /* glow效果已禁用 */
 }
 
 .todo-logo {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border: none;
   animation: glow 3s ease-in-out infinite;
   position: relative;
   z-index: 2;
 }
 
 .todo-logo-glow {
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
-  animation: glow-pulse 3s ease-in-out infinite;
-  z-index: 1;
+  display: none;
 }
 
 @keyframes glow {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(1);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   }
-  50% { 
+  50% {
     transform: scale(1.05);
-    box-shadow: 0 12px 32px rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -326,14 +414,13 @@
   padding: 4px 12px;
   border-radius: 12px;
   backdrop-filter: blur(5px);
-  margin-top: 8px;
   white-space: nowrap;
 }
 
 /* 右侧开发者小人 */
 .developer-section {
   position: absolute;
-  right: 100px;
+  right: -220px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
@@ -346,22 +433,46 @@
   gap: 12px;
 }
 
+.developer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.developer-link:hover {
+  transform: scale(1.05);
+}
+
+.developer-link:hover .developer-icon {
+  transform: scale(1.1);
+}
+
+.developer-link:hover .developer-label {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+}
+
 .developer-icon {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   animation: bounce 4s ease-in-out infinite;
-  backdrop-filter: blur(10px);
 }
 
-.developer-svg {
-  width: 50px;
-  height: 50px;
+.developer-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .developer-label {
@@ -394,16 +505,17 @@
   }
 
   .ai-editors-circle {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
   }
 
-  .ai-editor-0 { left: calc(50% - 133px); top: calc(50% - 77px); }
-  .ai-editor-1 { left: calc(50% - 154px); top: calc(50% + 0px); }
-  .ai-editor-2 { left: calc(50% - 133px); top: calc(50% + 77px); }
-  .ai-editor-3 { left: calc(50% + 0px); top: calc(50% + 154px); }
-  .ai-editor-4 { left: calc(50% + 133px); top: calc(50% + 77px); }
-  .ai-editor-5 { left: calc(50% + 154px); top: calc(50% + 0px); }
+  /* 小屏幕上的半圆形环绕布局 */
+  .ai-editor-0 { left: calc(50% - 150px); top: calc(50% - 230px); }
+  .ai-editor-1 { left: calc(50% - 195px); top: calc(50% - 120px); }
+  .ai-editor-2 { left: calc(50% - 213px); top: calc(50% - 40px); }
+  .ai-editor-3 { left: calc(50% - 213px); top: calc(50% + 40px); }
+  .ai-editor-4 { left: calc(50% - 195px); top: calc(50% + 120px); }
+  .ai-editor-5 { left: calc(50% - 150px); top: calc(50% + 230px); }
 
   .ai-editor-icon {
     width: 45px;
@@ -413,6 +525,14 @@
   .ai-editor-icon img {
     width: 32px;
     height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  /* 响应式设计中Kiro和Windsurf图标的特殊处理 */
+  .ai-editor-5 .ai-editor-icon img,
+  .ai-editor-2 .ai-editor-icon img {
+    transform: scale(1.4);
   }
 
   .todo-logo-container {
@@ -421,16 +541,16 @@
   }
 
   .developer-section {
-    right: 20px;
+    right: -100px;
   }
 
   .developer-icon {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
   }
 
-  .developer-svg {
-    width: 35px;
-    height: 35px;
+  .developer-image {
+    width: 80px;
+    height: 80px;
   }
 }

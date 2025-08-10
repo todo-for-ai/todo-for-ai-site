@@ -1,14 +1,22 @@
 import React from 'react';
 import { Layout, Menu, Button } from 'antd';
-import { GithubOutlined, MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import GitHubBadge from '../GitHubBadge/GitHubBadge';
 import './Header.css';
 
 const { Header: AntHeader } = Layout;
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
+
+  const handleLogoClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   const menuItems = [
     {
@@ -23,26 +31,17 @@ const Header: React.FC = () => {
       key: 'docs',
       label: <a href="#docs">{t('header.menu.documentation')}</a>,
     },
-    {
-      key: 'github',
-      label: (
-        <a
-          href="https://github.com/cc11001100/todo-for-ai"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <GithubOutlined /> {t('header.menu.github')}
-        </a>
-      ),
-    },
   ];
 
   return (
     <AntHeader className="site-header">
       <div className="header-content">
-        <div className="logo">
-          <h1>{t('header.logo')}</h1>
-          <span className="tagline">{t('header.tagline')}</span>
+        <div className="logo" onClick={handleLogoClick}>
+          <img src="/images/logo.png" alt="Todo4AI Logo" className="logo-image" />
+          <div className="logo-text">
+            <h1>{t('header.logo')}</h1>
+            <span className="tagline">{t('header.tagline')}</span>
+          </div>
         </div>
 
         <Menu
@@ -53,7 +52,6 @@ const Header: React.FC = () => {
         />
 
         <div className="header-actions">
-          <LanguageSwitcher />
           <Button
             type="primary"
             size="large"
@@ -63,6 +61,8 @@ const Header: React.FC = () => {
           >
             {t('header.getStarted')}
           </Button>
+          <GitHubBadge repo="todo-for-ai/todo-for-ai" />
+          <LanguageSwitcher />
         </div>
       </div>
     </AntHeader>
