@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { MessageOutlined, CloseOutlined } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
 import './FloatingCommunity.css';
 
 const FloatingCommunity: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const [isHovered, setIsHovered] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -16,8 +18,15 @@ const FloatingCommunity: React.FC = () => {
   };
 
   const handleClick = () => {
-    setIsExpanded(!isExpanded);
+    if (i18n.language.startsWith('zh')) {
+      setIsExpanded(!isExpanded);
+    } else {
+      // 英文用户直接跳转到TG群
+      window.open(t('community.floating.linkUrl'), '_blank');
+    }
   };
+
+  const isChineseLanguage = i18n.language.startsWith('zh');
 
   return (
     <div 
@@ -26,7 +35,7 @@ const FloatingCommunity: React.FC = () => {
       onMouseLeave={handleMouseLeave}
     >
       {/* 主按钮 */}
-      <div 
+      <div
         className={`floating-button ${isHovered ? 'hovered' : ''}`}
         onClick={handleClick}
         role="button"
@@ -38,16 +47,16 @@ const FloatingCommunity: React.FC = () => {
         }}
       >
         <MessageOutlined className="floating-icon" />
-        <span className="floating-text">AI交流群</span>
+        <span className="floating-text">{t('community.floating.title')}</span>
       </div>
 
-      {/* 悬浮显示的二维码 */}
-      {(isHovered || isExpanded) && (
+      {/* 悬浮显示的内容 */}
+      {(isHovered || isExpanded) && isChineseLanguage && (
         <div className={`qr-popup ${isExpanded ? 'expanded' : ''}`}>
           <div className="qr-popup-header">
-            <h4>加入AI交流群</h4>
+            <h4>{t('community.floating.modalTitle')}</h4>
             {isExpanded && (
-              <button 
+              <button
                 className="close-btn"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -62,12 +71,11 @@ const FloatingCommunity: React.FC = () => {
           <div className="qr-popup-content">
             <img
               src="/images/wechat-group-qr.png"
-              alt="微信群二维码"
+              alt={t('community.floating.qrAlt')}
               className="qr-image"
             />
             <p className="qr-description">
-              扫描二维码加入微信群<br />
-              反馈问题和建议
+              {t('community.floating.description')}
             </p>
           </div>
         </div>

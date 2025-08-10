@@ -1481,3 +1481,365 @@ src/components/Header/Header.tsx
 
 webpack compiled with 1 warning
 No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 3:43:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 8:14:  'i18n' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 3:43:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 8:14:  'i18n' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 3:43:  'GithubOutlined' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 21:9:  'handleJoinCommunity' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 3:43:  'GithubOutlined' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 21:9:  'handleJoinCommunity' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 7:11:  't' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  Line 7:14:  'i18n' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 7:11:  't' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  Line 7:14:  'i18n' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 39:60:  'GithubOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+ERROR in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 39:60:  'GithubOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:39:60
+TS2304: Cannot find name 'GithubOutlined'.
+    37 |         <Button
+    38 |           type="primary"
+  > 39 |           icon={isChineseLanguage ? <MessageOutlined /> : <GithubOutlined />}
+       |                                                            ^^^^^^^^^^^^^^
+    40 |           onClick={handleJoinCommunity}
+    41 |           className="join-group-btn"
+    42 |           size="large"
+
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 39:60:  'GithubOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+ERROR in [eslint] 
+src/components/CommunityGroup/CommunityGroup.tsx
+  Line 39:60:  'GithubOutlined' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+ERROR in src/components/CommunityGroup/CommunityGroup.tsx:39:60
+TS2304: Cannot find name 'GithubOutlined'.
+    37 |         <Button
+    38 |           type="primary"
+  > 39 |           icon={isChineseLanguage ? <MessageOutlined /> : <GithubOutlined />}
+       |                                                            ^^^^^^^^^^^^^^
+    40 |           onClick={handleJoinCommunity}
+    41 |           className="join-group-btn"
+    42 |           size="large"
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used              @typescript-eslint/no-unused-vars
+  Line 29:9:  'isChineseLanguage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/FloatingCommunity/FloatingCommunity.tsx
+  Line 2:42:  'GithubOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Header/Header.tsx
+  Line 3:10:  'MenuOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.

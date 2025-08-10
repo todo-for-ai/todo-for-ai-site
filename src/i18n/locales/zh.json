@@ -176,6 +176,12 @@
       "title": "加入AI交流群",
       "description": "扫描二维码加入微信群，反馈问题和建议",
       "qrAlt": "微信群二维码"
+    },
+    "floating": {
+      "title": "AI交流群",
+      "modalTitle": "加入AI交流群",
+      "description": "扫描二维码加入微信群，反馈问题和建议",
+      "qrAlt": "微信群二维码"
     }
   }
 }

@@ -169,13 +169,21 @@
     "developer": "Developer"
   },
   "community": {
-    "title": "Join AI Community",
+    "title": "Join TG AIGC Group",
     "description": "Explore AI-era software development patterns with other developers, share experiences, and get the latest insights.",
-    "joinGroup": "Join Group",
+    "joinGroup": "Join TG Group",
     "modal": {
-      "title": "Join AI Community",
-      "description": "Scan QR code to join WeChat group for feedback and suggestions",
-      "qrAlt": "WeChat Group QR Code"
+      "title": "Join TG AIGC Discussion Group",
+      "description": "Click to join our Telegram group for AI discussions, feedback and suggestions",
+      "linkText": "Join TG Group",
+      "linkUrl": "https://t.me/+uyFQbcQqNipjNWQ1"
+    },
+    "floating": {
+      "title": "TG AIGC Group",
+      "modalTitle": "Join TG AIGC Discussion Group",
+      "description": "Click to join our Telegram group for AI discussions, feedback and suggestions",
+      "linkText": "Join TG Group",
+      "linkUrl": "https://t.me/+uyFQbcQqNipjNWQ1"
     }
   }
 }
