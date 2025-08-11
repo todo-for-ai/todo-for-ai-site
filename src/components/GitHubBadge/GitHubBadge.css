@@ -4,7 +4,7 @@
   background: #24292e;
   color: white;
   border-radius: 6px;
-  padding: 6px 12px;
+  padding: 8px 12px;
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
@@ -13,6 +13,8 @@
   font-size: 14px;
   font-weight: 500;
   user-select: none;
+  height: 40px; /* 与header按钮保持一致的高度 */
+  box-sizing: border-box;
 }
 
 .github-badge:hover {
@@ -32,8 +34,13 @@
 }
 
 .github-icon {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .stars-count {

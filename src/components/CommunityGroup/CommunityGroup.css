@@ -71,6 +71,8 @@
   background: white;
   padding: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: contain; /* 保持图片原始宽高比，避免变形 */
+  object-position: center; /* 图片居中显示 */
 }
 
 .qr-code-inline:hover {
@@ -185,6 +187,8 @@
   .qr-code-inline {
     width: 160px;
     height: 160px;
+    object-fit: contain; /* 移动端也保持图片原始宽高比 */
+    object-position: center;
   }
 
   .qr-label {

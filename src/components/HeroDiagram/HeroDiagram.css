@@ -122,6 +122,16 @@
   transform: scale(1.4);
 }
 
+/* 特殊处理GitHub Copilot图标，添加灰色背景以解决透明度问题 */
+.ai-editor-3 .ai-editor-icon {
+  background-color: #f5f5f5; /* 浅灰色背景 */
+  border: 1px solid #ddd;
+}
+
+.ai-editor-3 .ai-editor-icon:hover {
+  background-color: #e8e8e8; /* 悬停时稍微深一点的灰色 */
+}
+
 .ai-editor-name {
   font-size: 10px;
   font-weight: 600;

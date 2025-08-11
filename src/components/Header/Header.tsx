@@ -60,8 +60,8 @@ const Header: React.FC = () => {
           >
             {t('header.getStarted')}
           </Button>
-          <GitHubBadge repo="todo-for-ai/todo-for-ai" />
           <LanguageSwitcher />
+          <GitHubBadge repo="todo-for-ai/todo-for-ai" />
         </div>
       </div>
     </AntHeader>

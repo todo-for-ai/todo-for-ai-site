@@ -52,3 +52,107 @@ Compiling...
 Compiled successfully!
 webpack compiled successfully
 No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Footer/Footer.tsx
+  Line 5:3:  'TwitterOutlined' is defined but never used   @typescript-eslint/no-unused-vars
+  Line 6:3:  'LinkedinOutlined' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+No issues found.

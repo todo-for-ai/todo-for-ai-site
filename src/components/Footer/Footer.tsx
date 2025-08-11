@@ -2,8 +2,6 @@ import React from 'react';
 import { Layout, Row, Col, Typography, Space, Divider } from 'antd';
 import {
   GithubOutlined,
-  TwitterOutlined,
-  LinkedinOutlined,
   MailOutlined
 } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
@@ -29,29 +27,15 @@ const Footer: React.FC = () => {
                 {t('footer.brand.description')}
               </Paragraph>
               <Space size="large" className="social-links">
-                <Link 
-                  href="https://github.com/cc11001100/todo-for-ai" 
+                <Link
+                  href="https://github.com/cc11001100/todo-for-ai"
                   target="_blank"
                   className="social-link"
                 >
                   <GithubOutlined />
                 </Link>
-                <Link 
-                  href="#" 
-                  target="_blank"
-                  className="social-link"
-                >
-                  <TwitterOutlined />
-                </Link>
-                <Link 
-                  href="#" 
-                  target="_blank"
-                  className="social-link"
-                >
-                  <LinkedinOutlined />
-                </Link>
-                <Link 
-                  href="mailto:contact@todo4ai.org" 
+                <Link
+                  href="mailto:contact@todo4ai.org"
                   className="social-link"
                 >
                   <MailOutlined />
@@ -69,8 +53,6 @@ const Footer: React.FC = () => {
                 <li><Link href="#features">{t('footer.sections.product.links.features')}</Link></li>
                 <li><Link href="#how-it-works">{t('footer.sections.product.links.howItWorks')}</Link></li>
                 <li><Link href="https://todo4ai.org/" target="_blank">{t('footer.sections.product.links.getStarted')}</Link></li>
-                <li><Link href="#">{t('footer.sections.product.links.pricing')}</Link></li>
-                <li><Link href="#">{t('footer.sections.product.links.api')}</Link></li>
               </ul>
             </div>
           </Col>
@@ -81,11 +63,9 @@ const Footer: React.FC = () => {
                 {t('footer.sections.resources.title')}
               </Title>
               <ul className="footer-links">
-                <li><Link href="#">{t('footer.sections.resources.links.documentation')}</Link></li>
-                <li><Link href="#">{t('footer.sections.resources.links.tutorials')}</Link></li>
-                <li><Link href="#">{t('footer.sections.resources.links.blog')}</Link></li>
-                <li><Link href="#">{t('footer.sections.resources.links.community')}</Link></li>
-                <li><Link href="#">{t('footer.sections.resources.links.support')}</Link></li>
+                <li><Link href="https://github.com/cc11001100/todo-for-ai#readme" target="_blank">{t('footer.sections.resources.links.documentation')}</Link></li>
+                <li><Link href="https://t.me/+uyFQbcQqNipjNWQ1" target="_blank">{t('footer.sections.resources.links.community')}</Link></li>
+                <li><Link href="mailto:contact@todo4ai.org">{t('footer.sections.resources.links.support')}</Link></li>
               </ul>
             </div>
           </Col>
@@ -96,11 +76,8 @@ const Footer: React.FC = () => {
                 {t('footer.sections.company.title')}
               </Title>
               <ul className="footer-links">
-                <li><Link href="#">{t('footer.sections.company.links.about')}</Link></li>
-                <li><Link href="#">{t('footer.sections.company.links.careers')}</Link></li>
-                <li><Link href="#">{t('footer.sections.company.links.privacy')}</Link></li>
-                <li><Link href="#">{t('footer.sections.company.links.terms')}</Link></li>
-                <li><Link href="#">{t('footer.sections.company.links.contact')}</Link></li>
+                <li><Link href="https://github.com/cc11001100/todo-for-ai#about" target="_blank">{t('footer.sections.company.links.about')}</Link></li>
+                <li><Link href="mailto:contact@todo4ai.org">{t('footer.sections.company.links.contact')}</Link></li>
               </ul>
             </div>
           </Col>
