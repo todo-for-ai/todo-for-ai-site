@@ -1,10 +1,66 @@
 # Todo4AI Site
 
+🌐 **Visit our live site**: [https://site.todo4ai.org/](https://site.todo4ai.org/)
+
+[简体中文](README-zh.md) | **English**
+
+## About Todo4AI
+
+Todo4AI is an agile development tool designed for the AI era, redefining software engineering development patterns through intelligent task management, automated workflows, and AI collaboration. Make AI your development partner and enhance team collaboration efficiency.
+
+### 🚀 Key Features
+
+- **🎯 Smart Task Creation**: AI-powered intelligent task generation and prioritization
+- **⚡ AI-Driven Automation**: Automated workflows that adapt to your development patterns
+- **🔄 Automated Workflows**: Streamlined processes for maximum efficiency
+- **⏰ Intelligent Scheduling**: Smart task scheduling based on team capacity and priorities
+- **🤝 Collaborative AI**: AI that works alongside your team as a development partner
+- **🔒 Privacy-First Design**: Your data stays secure with privacy-focused architecture
+
+### 🎯 Why Todo4AI?
+
+- **✅ Productivity Boost**: Enhance team productivity with AI-driven insights
+- **🤖 24/7 AI Assistance**: Round-the-clock intelligent task management
+- **🛡️ Privacy Protected**: Enterprise-grade security for your development workflows
+
+## 🌐 Live Demo
+
+Experience Todo4AI in action: **[https://site.todo4ai.org/](https://site.todo4ai.org/)**
+
+## 🔗 Related Links
+
+- **Main Application**: [https://todo4ai.org/](https://todo4ai.org/)
+- **GitHub Repository**: [https://github.com/cc11001100/todo-for-ai](https://github.com/cc11001100/todo-for-ai)
+- **Documentation**: Available on the main site
+
+## 🛠️ Development Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Important Configuration Notes
+### Prerequisites
 
-### Port Configuration
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/cc11001100/todo-for-ai-site.git
+
+# Navigate to project directory
+cd todo-for-ai-site
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+### Important Configuration Notes
+
+#### Port Configuration
 This project is configured to run on **port 51701**. This port number is specifically set for Todo4AI and should **NOT** be modified.
 
 - **Configuration file**: `.env`
@@ -13,7 +69,7 @@ This project is configured to run on **port 51701**. This port number is specifi
 
 If you need to use a different port for local development, create a `.env.local` file with your preferred port instead of modifying the main `.env` file.
 
-## Available Scripts
+## 📜 Available Scripts
 
 In the project directory, you can run:
 
@@ -52,12 +108,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This site is deployed to GitHub Pages at: **[https://site.todo4ai.org/](https://site.todo4ai.org/)**
 
-## Deployment
+## 📚 Learn More
 
-This site is deployed to GitHub Pages at: https://site.todo4ai.org
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
+- [Todo4AI Main Site](https://todo4ai.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**🌟 Ready to revolutionize your development workflow?**
+**Visit [https://site.todo4ai.org/](https://site.todo4ai.org/) to get started!**
