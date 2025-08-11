@@ -11,7 +11,7 @@
     "getStarted": "开始使用"
   },
   "hero": {
-    "title": "跟AI一起的敏捷开发",
+    "title": "与AI协作的敏捷开发",
     "titleHighlight": "重塑AI时代的软件工程开发模式",
     "description": "Todo4AI是专为AI时代设计的敏捷开发工具，通过智能任务管理、自动化工作流和AI协作，重新定义软件工程开发模式。让AI成为您的开发伙伴，提升团队协作效率。",
     "features": {
@@ -34,7 +34,7 @@
     "demo": {
       "title": "Todo4AI 控制台",
       "tasks": {
-        "analyzed": "AI已分析并优先排序15个任务",
+        "analyzed": "AI已分析并优先排序了15个任务",
         "creating": "正在创建自动化工作流...",
         "review": "审查季度目标",
         "optimize": "优化团队生产力",
@@ -48,44 +48,44 @@
     "items": {
       "aiTaskCreation": {
         "title": "AI驱动的任务创建",
-        "description": "使用AI算法自动生成和分解复杂任务。让AI协助理解您的目标并创建可执行的任务列表。"
+        "description": "使用AI算法自动生成和分解复杂任务，让AI协助理解您的目标并创建可执行的任务列表。"
       },
       "smartPrioritization": {
         "title": "智能优先级排序",
-        "description": "基于截止日期、依赖关系和重要性的优先级排序。通过AI调度建议，帮助您更好地管理关键任务。"
+        "description": "基于截止日期、依赖关系和重要性进行优先级排序，通过AI调度建议，帮助您更好地管理关键任务。"
       },
       "automatedWorkflows": {
         "title": "自动化工作流",
-        "description": "创建适应您工作模式的复杂自动化规则。通过智能工作流自动化简化重复流程。"
+        "description": "创建适应您工作模式的复杂自动化规则，通过智能工作流自动化简化重复流程。"
       },
       "intelligentScheduling": {
         "title": "智能调度",
-        "description": "AI分析您的日历、精力水平和任务复杂性，建议合适的调度。通过时间管理提升生产力。"
+        "description": "AI分析您的日历、精力水平和任务复杂性，为您建议最合适的调度方案，通过时间管理提升生产力。"
       },
       "collaborativeAI": {
         "title": "协作AI",
-        "description": "在团队间分享AI洞察，从集体生产力模式中学习。通过协作功能增强团队协调。"
+        "description": "在团队间分享AI洞察，从集体生产力模式中学习，通过协作功能增强团队协调。"
       },
       "privacyFirst": {
         "title": "隐私优先设计",
-        "description": "通过本地处理和加密存储确保数据安全。在不损害隐私或数据所有权的情况下享受AI优势。"
+        "description": "通过本地处理和加密存储确保数据安全，在不损害隐私或数据所有权的情况下享受AI优势。"
       },
       "mcpIntegration": {
         "title": "MCP工具集成",
-        "description": "无缝集成模型上下文协议(MCP)工具，增强AI功能。轻松连接外部服务和API。"
+        "description": "无缝集成模型上下文协议(MCP)工具，增强AI功能，轻松连接外部服务和API。"
       },
       "cloudSync": {
         "title": "云端同步",
-        "description": "通过安全的云存储在所有设备间保持任务同步。随时随地访问您的生产力数据。"
+        "description": "通过安全的云存储在所有设备间保持任务同步，随时随地访问您的生产力数据。"
       },
       "analytics": {
         "title": "高级分析",
-        "description": "通过全面的分析和报告深入了解您的生产力模式。跟踪进度并优化您的工作流程。"
+        "description": "通过全面的分析和报告深入了解您的生产力模式，跟踪进度并优化您的工作流程。"
       }
     },
     "cta": {
       "title": "准备体验AI驱动的生产力了吗？",
-      "description": "加入众多用户，他们已经通过Todo4AI改善了任务管理方式"
+      "description": "加入众多用户的行列，他们已经通过Todo4AI改善了任务管理方式"
     }
   },
   "howItWorks": {
@@ -110,19 +110,19 @@
       "achieve": {
         "title": "提升生产力",
         "description": "专注于高价值工作，让AI处理细节",
-        "details": "通过AI洞察、自动化日常任务、建议和工作流程的实时优化，帮助提升生产力。"
+        "details": "通过AI洞察、自动化日常任务建议和工作流程的实时优化，帮助提升生产力。"
       }
     },
     "demo": {
       "title": "观看Todo4AI实际操作",
       "videoTitle": "观看演示视频",
-      "videoDescription": "探索Todo4AI如何通过实时自动化和智能洞察将混乱的任务列表转变为有组织的AI驱动生产力系统"
+      "videoDescription": "探索Todo4AI如何通过实时自动化和智能洞察，将混乱的任务列表转变为有组织的AI驱动生产力系统"
     }
   },
   "footer": {
     "brand": {
       "title": "Todo4AI",
-      "description": "通过人工智能改善任务管理。提升您的生产力，专注于真正重要的事情。"
+      "description": "通过人工智能改善任务管理，提升您的生产力，专注于真正重要的事情。"
     },
     "sections": {
       "product": {
