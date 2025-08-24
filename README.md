@@ -27,6 +27,12 @@ Todo4AI is an agile development tool designed for the AI era, redefining softwar
 
 Experience Todo4AI in action: **[https://site.todo4ai.org/](https://site.todo4ai.org/)**
 
+## 🎥 Video Tutorial
+
+Get started quickly with our video tutorial:
+
+- **📺 Watch Demo**: [https://www.youtube.com/watch?v=L5SjoKRzJXQ&t=30s](https://www.youtube.com/watch?v=L5SjoKRzJXQ&t=30s)
+
 ## 🔗 Related Links
 
 - **Main Application**: [https://todo4ai.org/](https://todo4ai.org/)

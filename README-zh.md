@@ -27,6 +27,12 @@ Todo4AI是专为AI时代设计的敏捷开发工具，通过智能任务管理�
 
 体验Todo4AI的强大功能: **[https://site.todo4ai.org/](https://site.todo4ai.org/)**
 
+## 🎥 视频教程
+
+通过我们的视频教程快速上手：
+
+- **📺 观看演示**: [https://www.youtube.com/watch?v=v96wqWLEHk8](https://www.youtube.com/watch?v=v96wqWLEHk8)
+
 ## 🔗 相关链接
 
 - **主应用程序**: [https://todo4ai.org/](https://todo4ai.org/)
