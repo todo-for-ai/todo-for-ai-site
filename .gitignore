@@ -87,6 +87,25 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+# React build artifacts
+dist/
+*.js.map
+*.ts.map
+*.min.js
+
+# npm
+npm-shrinkwrap.json
+
+# Editor and IDE files
+.vs/
+
+# Linux
+*~
+
+# Logs
+*.log
+
+
 # dotenv environment variable files
 .env.development
 .env.test
