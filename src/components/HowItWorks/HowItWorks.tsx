@@ -12,7 +12,7 @@ import './HowItWorks.css';
 const { Title, Paragraph } = Typography;
 
 const HowItWorks: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const steps = [
     {
@@ -95,15 +95,27 @@ const HowItWorks: React.FC = () => {
           <Title level={3} className="demo-title">
             {t('howItWorks.demo.title')}
           </Title>
-          <div className="demo-video-placeholder">
-            <div className="play-button">
-              <div className="play-icon">▶</div>
+          <div className="demo-video-container">
+            <div className="video-wrapper">
+              <iframe
+                width="100%"
+                height="400"
+                src={i18n.language.startsWith('zh')
+                  ? "https://www.youtube.com/embed/v96wqWLEHk8"
+                  : "https://www.youtube.com/embed/L5SjoKRzJXQ?start=30"
+                }
+                title={t('howItWorks.demo.videoTitle')}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{
+                  borderRadius: '12px',
+                  boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)'
+                }}
+              />
             </div>
-            <div className="demo-overlay">
-              <Title level={4} className="overlay-title">
-                {t('howItWorks.demo.videoTitle')}
-              </Title>
-              <Paragraph className="overlay-description">
+            <div className="video-description">
+              <Paragraph className="video-description-text">
                 {t('howItWorks.demo.videoDescription')}
               </Paragraph>
             </div>

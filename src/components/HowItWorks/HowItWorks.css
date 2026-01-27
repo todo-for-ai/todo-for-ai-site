@@ -35,7 +35,8 @@
 }
 
 .steps-container {
-  display: none; /* Hide default steps on desktop, show cards instead */
+  display: none;
+  /* Hide default steps on desktop, show cards instead */
 }
 
 .steps-details {
@@ -144,73 +145,44 @@
   margin-bottom: 40px !important;
 }
 
-.demo-video-placeholder {
-  position: relative;
+.demo-video-container {
   width: 100%;
   max-width: 800px;
-  height: 450px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  border-radius: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-bottom: 24px;
+  border-radius: 12px;
   overflow: hidden;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.demo-video-placeholder:hover {
-  transform: scale(1.02);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+.video-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  z-index: 2;
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-.demo-video-placeholder:hover .play-button {
-  background: white;
-  transform: translate(-50%, -50%) scale(1.1);
+.video-description {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.play-icon {
-  font-size: 24px;
-  color: #667eea;
-  margin-left: 4px;
-}
-
-.demo-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-  padding: 40px 32px 32px;
-  color: white;
-}
-
-.overlay-title {
-  color: white !important;
-  font-size: 1.5rem !important;
-  font-weight: 600 !important;
-  margin-bottom: 8px !important;
-}
-
-.overlay-description {
-  color: rgba(255, 255, 255, 0.9) !important;
+.video-description-text {
+  color: #666 !important;
   font-size: 1rem !important;
+  line-height: 1.6 !important;
   margin: 0 !important;
-  line-height: 1.5 !important;
 }
 
 /* 响应式设计 */
@@ -218,74 +190,57 @@
   .how-it-works-section {
     padding: 80px 0;
   }
-  
+
   .how-it-works-container {
     padding: 0 16px;
   }
-  
+
   .section-header {
     margin-bottom: 60px;
   }
-  
+
   .section-title {
     font-size: 2rem !important;
   }
-  
+
   .section-subtitle {
     font-size: 1.1rem !important;
   }
-  
+
   .steps-container {
     display: block;
     margin-bottom: 60px;
   }
-  
+
   .main-steps {
     max-width: 400px;
     margin: 0 auto;
   }
-  
+
   .main-steps .ant-steps-item-title {
     font-size: 1.1rem !important;
     font-weight: 600 !important;
   }
-  
+
   .main-steps .ant-steps-item-description {
     font-size: 0.9rem !important;
     color: #666 !important;
   }
-  
+
   .steps-details {
-    display: none; /* Hide detailed cards on mobile, show steps instead */
+    display: none;
+    /* Hide detailed cards on mobile, show steps instead */
   }
-  
+
   .demo-title {
     font-size: 1.6rem !important;
   }
-  
-  .demo-video-placeholder {
+
+  .video-wrapper {
     height: 300px;
-    border-radius: 16px;
   }
-  
-  .play-button {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .play-icon {
-    font-size: 18px;
-  }
-  
-  .demo-overlay {
-    padding: 24px 20px 20px;
-  }
-  
-  .overlay-title {
-    font-size: 1.2rem !important;
-  }
-  
-  .overlay-description {
+
+  .video-description-text {
     font-size: 0.9rem !important;
   }
 }
@@ -294,21 +249,12 @@
   .how-it-works-section {
     padding: 60px 0;
   }
-  
+
   .section-title {
     font-size: 1.8rem !important;
   }
-  
-  .demo-video-placeholder {
+
+  .video-wrapper {
     height: 250px;
-  }
-  
-  .play-button {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .play-icon {
-    font-size: 16px;
   }
 }
